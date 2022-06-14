@@ -249,7 +249,7 @@
     display: grid;
     grid-gap: 2rem;
     padding: 2rem 0;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
   }
 

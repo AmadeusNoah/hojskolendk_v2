@@ -201,7 +201,7 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
 <section class="maxwidthwrapper">
   <p class="preh2">WE'RE SOCIAL</p>
   <h2>FØLG VORES REJSEEVENTYR @ HÖJSKOLENDK</h2>
-  <div class="grid grid-rows-3 sm:grid-cols-3 lg:grid-cols-4">
+  <div class="grid grid-rows-2 sm:grid-cols-3 lg:grid-cols-4">
     <img
       class="sm:row-start-1 sm:col-start-1 lg:col-start-1 object-cover w-full aspect-square"
       src="dykke.webp"

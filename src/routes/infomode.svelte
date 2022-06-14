@@ -4,10 +4,10 @@
 </script>
 
 <header class="h-full w-full relative overflow-hidden" id="video">
-  <video class="z-0 hero-image" loop muted autoplay src="herofrontpage.mp4" />
+  <img src="" alt="" />
   <div class="hero-text m-auto">
-    <p class="text-white">HØJSKOLEOPHOLD I UDLANDET</p>
-    <h1 class="">FÆLLESKAB & REJSEEVENTYR</h1>
+    <p class="text-white">FÅ SVAR PÅ ALLE DINE SPØRGSMÅL OG</p>
+    <h1 class="">VÆR MED TIL VORES INFOMØDER</h1>
   </div>
 
   <div class="absolute z-50 bottom-14 left-[calc(50%-25px)] h-12 w-auto">
@@ -30,7 +30,6 @@
 </header>
 
 <main>
-
   <section class="maxwidthwrapper">
     <p class="preh2">GRATIS & UFORPLIGTENDE</p>
     <h2>INFOMØDER & REJSEFEBER CAFÉ</h2>

@@ -120,7 +120,7 @@
       <Card image="ophold3.webp" title="Caribien, Hawaii & Mexico" />
       <Card image="ophold4.webp" title="Costa Rica, Mexico & Guatemala" />
     </div>
-    <div class="md:justify-center md:grid pt-6">
+    <div class="justify-center grid pt-6">
       <MyButton type="primary">UDFORSK VORES OPHOLD</MyButton>
     </div>
   </div>
@@ -163,6 +163,9 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
   </div>
 </section>
 
+
+
+
 <!-- Statistik sektion start -->
 <section
   id=""
@@ -200,6 +203,58 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
     </div>
   </Saos>
 </section>
+
+
+<section class="maxwidthwrapper"> 
+  <article class="cols-start-1 grid items-center place-items-center">
+    <div class="grid md:grid-cols-2 md:gap-10 lg:gap-20">
+
+      <div class="hidden md:grid md:m-auto">
+
+        <img
+          class=""
+          src="baeredygtighed.png"
+          alt="Ung trekker i bjergene"
+        />
+    </div>
+
+      <div class="grid md:block md:m-auto">
+        <div class="rows-start-1">
+            <p class="preh2">BÆREDYGTIGHED</p>
+            <h2>
+              VORES PLANET, VORES ANSVAR          </h2>
+        </div>
+
+          <div class="row-start-3 md:row-auto">
+            <p class="pb-6">
+              I HÖJSKOLENDK brænder vi for at give vores elever et eventyrligt højskoleophold for livet. Så bæredygtigt som overhovedet muligt
+
+For os handler det om holdning og handling. Vi tager ansvar som højskole og forholder os aktivt til vores aftryk – positivt som negativt – så vi er med til at skabe bæredygtig turisme i dag, i morgen og i fremtiden. Det starter med at have orden i eget hus og dernæst ved vores leverandører og samarbejdspartnere, som vi i tæt samarbejde med stiller krav til etik, vilkår og klimapolitik.
+
+            </p>
+            <div class="row-start-4 md:row-auto">
+              <img class="h-16 w-auto" src="underskrift_anj.png" alt="signatur">
+              <p class="broedkrummer">Amadeus Noah Jensen <br> Medejer, HÖJSKOLENDK</p>
+            </div>
+          </div>
+
+         
+
+        <div class="rows-start-2 pb-6 md:row-auto md:hidden">
+          <img
+            class=""
+            src="sektion1.webp"
+            alt="Unge glade mennesker der er med på et højskoleophold"
+          />
+        </div>
+      </div>
+
+      
+    </div>
+  </article>
+</section>
+
+
 
 <section class="maxwidthwrapper">
   <p class="preh2">WE'RE SOCIAL</p>
@@ -267,6 +322,14 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
     /> -->
   </div>
 </section>
+
+<section> 
+  <div class="justify-center grid pt-6">
+    <MyButton type="primary">UDFORSK VORES OPHOLD</MyButton>
+  </div>
+</section>
+
+
 
 <!-- Statistik section  slut -->
 

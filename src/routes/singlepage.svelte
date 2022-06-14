@@ -23,16 +23,16 @@
 </script>
 
 <Header imgtitle="ferie2.webp" />
-<div class="m-9 preh2">
-  <a href="index">Forside /</a>
-  <a href="alleophold" class=" preh2">Alle ophold /</a>
-  <a href="alleophold" class="underline preh2"
-    >Sri Lanka, Maldiverne & Thailand
-  </a>
+<div class="absolute z-50 bottom-24 left-[calc(50%-25px)] h-12 w-auto">
+  <img class="h-auto w-12" src="scroll_down.png" alt="scroll down icon">
+</div>
 
-  <div class="absolute z-50 bottom-24 left-[calc(50%-25px)] h-12 w-auto">
-    <img class="h-auto w-12" src="scroll_down.png" alt="scroll down icon">
-  </div>
+<div class="m-9 broedkrummer">
+  <a href="index">Forside /</a>
+  <a href="alleophold" class=" broedkrummer">Alle ophold /</a>
+  <a href="alleophold" class="underline broedkrummer"
+    >Sri Lanka, Maldiverne & Thailand
+  </a> 
 </div>
 
 <main class="max_width_single relative">

@@ -1,10 +1,11 @@
 <script>
-  import Header from "../components/header.svelte";
-  import Infomodecard from "../components/infomode_card.svelte";
+  import MyButton from "../components/button.svelte";
+  import Infomodecard from "../components/tilmeld_infomode_card.svelte";
+  import Accordion from "../components/tilmeld_accrodian.svelte";
 </script>
 
 <header class="h-full w-full relative overflow-hidden" id="video">
-  <img src="" alt="" />
+  <img class="hero-image" src="infomode.webp" alt="" />
   <div class="hero-text m-auto">
     <p class="text-white">FÅ SVAR PÅ ALLE DINE SPØRGSMÅL OG</p>
     <h1 class="">VÆR MED TIL VORES INFOMØDER</h1>
@@ -13,29 +14,12 @@
   <div class="absolute z-50 bottom-14 left-[calc(50%-25px)] h-12 w-auto">
     <img class="h-auto w-12" src="scroll_down.png" alt="scroll down icon" />
   </div>
-  <div class="wave absolute bottom-[6px]">
-    <svg
-      width="3311"
-      height="69"
-      viewBox="0 0 3311 69"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M1117.7 32.6112C407.753 27.7762 99.6691 49.7522 0 66.7752V69L170.798 67.9949H640.254H3311V32.6112V0C3214.82 13.0946 2921.85 49.8962 2519.46 56.1817C2016.46 64.0384 2005.13 38.6548 1117.7 32.6112Z"
-        fill="white"
-      />
-    </svg>
-  </div>
 </header>
 
 <div class="m-9 broedkrummer">
   <a href="index">Forside /</a>
-  <a href="alleophold" class="underline broedkrummer"
-    >Infomøder
-  </a> 
+  <a href="alleophold" class="underline broedkrummer">Infomøder </a>
 </div>
-
 
 <main>
   <section class="maxwidthwrapper">
@@ -50,8 +34,13 @@
     <hr />
   </section>
 
-  <section class="maxwidthwrapper">
-    <div>
+  <section class="maxwidthwrapper md:grid grid-cols-2 md:gap-10 lg:gap-20">
+    <img
+      class="col-start-2 row-start-1"
+      src="solnedgang.webp"
+      alt="instagram - Hygge i golden hour"
+    />
+    <div class="col-start-1 row-start-1 mt-10">
       <p class="preh2">GRATIS & UFORPLIGTENDE</p>
       <h2>MØD OS OG BLIV KLOGERE</h2>
       <p>
@@ -61,13 +50,34 @@
         møder Thomas, Amadeus eller Emil (ejerne af HÖJSKOLENDK), nogle af vores
         skønne tidligere elever.
       </p>
-      <button>TILMELD DIG INFOMØDE</button>
+      <div class="mt-5">
+        <MyButton type="primary">JOIN OS TIL INFOMØDE</MyButton>
+      </div>
     </div>
-    <img src="" alt="" />
   </section>
 
-  <section class="maxwidthwrapper grid gap-10">
-    <h3>Maj 2022</h3>
+  <section>
+    <div class="text-center content-center justify-center">
+      <p class="preh2">ONLINE OG FYSISKE MØDER</p>
+      <h2>Det får du ud af opholdet</h2>
+    </div>
+  </section>
+
+  <Accordion
+    dag="19"
+    month="JUN"
+    title="Infomøde København"
+    subtitle="For dig der drømmer om dit livs eventyr"
+    tid="Kl. 17:00 - 19:00"
+    vej="Købmagergade 29,"
+    by=" 1970 Købbenhavn K"
+  />
+
+  <!-- <section class="maxwidthwrapper grid gap-10">
+    <div>
+      <p class="preh2">ONLINE OG FYSISKE MØDER</p>
+      <h2>KOMMENDE INFOMØDER</h2>
+    </div>
     <Infomodecard
       image="stud_kbh.webp"
       title="Infomøde København"
@@ -106,7 +116,7 @@ Købmagergade 29,
       tid="Kl. 17:00 - 19:00"
       adresse="Studenterhuset København Købmagergade 29, 1970 Købbenhavn K"
     />
-  </section>
+  </section> -->
 </main>
 
 <style>

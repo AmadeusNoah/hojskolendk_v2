@@ -25,7 +25,7 @@
 </script>
 
 <nav class="w-screen drop-shadow-lg">
-  <div class="flex max-w-[1400px] justify-center m-auto">
+  <div class="flex max-w-[1200px] justify-center m-auto">
     <div class="h-full grid items-center  ">
       <a sveltekit:prefetch href="/">
         <img class="h-[70px]" src="hdk_logo_cannon.png" alt="logo orange" />
@@ -536,7 +536,7 @@
         </li>
       </ul>
       <div class="hidden lg:grid">
-        <Button>TILMELD INFOMØDE</Button>
+        <Button>KONTAKT</Button>
       </div>
     </div>
   </div>

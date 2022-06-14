@@ -75,11 +75,15 @@
   <img class="h-auto w-12" src="scroll_down.png" alt="scroll down icon">
 </div>
 </div>
+
+<div class="broedkrummer m-9">
+  <a href="indec">Forside /</a>
+  <a href="alleophold" class="underline broedkrummer">Alle højskoleophold</a>
+</div>
+
+
+
 <main class="maxwidthwrapper ">
-  <div class="preh2">
-    <a href="indec">Forside /</a>
-    <a href="alleophold" class="underline preh2">Alle højskoleophold</a>
-  </div>
   <!-- SECTION 1  -->
   <section class="" id="no-pad">
     <h2>Hvor drømmer du om at rejse hen?</h2>

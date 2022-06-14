@@ -29,6 +29,10 @@
   <a href="alleophold" class="underline preh2"
     >Sri Lanka, Maldiverne & Thailand
   </a>
+
+  <div class="absolute z-50 bottom-24 left-[calc(50%-25px)] h-12 w-auto">
+    <img class="h-auto w-12" src="scroll_down.png" alt="scroll down icon">
+  </div>
 </div>
 
 <main class="max_width_single relative">

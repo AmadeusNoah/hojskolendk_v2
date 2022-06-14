@@ -65,12 +65,16 @@
   };
 </script>
 
+<div>
 <img src="ferie9.webp" alt="herobillede" class="hero-image" />
 <div class="hero-text">
   <p>HØJSKOLEOPHOLD FOR UNGE</p>
   <h1>LAD DIG INSPIRERE AF ALLE VORES SPÆNDENDE OPHOLDE</h1>
 </div>
-
+<div class="absolute z-50 bottom-24 left-[calc(50%-25px)] h-12 w-auto">
+  <img class="h-auto w-12" src="scroll_down.png" alt="scroll down icon">
+</div>
+</div>
 <main class="maxwidthwrapper ">
   <div class="preh2">
     <a href="indec">Forside /</a>

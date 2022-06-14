@@ -13,11 +13,11 @@
 </script>
 
 <section
-  class="ophold items-center mb-5 pb-6 lg:pb-0 lg:flex lg:max-h-[350px] lg:gap-5 cursor-pointer"
+  class="ophold items-center mb-5 pb-6 lg:pb-0 lg:flex lg:max-h-[350px] lg:gap-5 hover:scale-105  overflow-hidden"
   transition:scale={{ duration: 1000, easing: expoInOut }}
 >
   <!-- <a href="/singlepage"> -->
-    <div class="h-full w-full object-cover lg:max-w-[30%] ">
+    <div class="h-full w-full object-cover lg:max-w-[30%]">
       <img src={image} alt={title} class="h-full w-full" />
     </div>
     <div>
@@ -61,8 +61,9 @@
           </div>
         </div>
       </div>
-      <div class="grid justify-center md:justify-start ml-3 pt-4 lg:mb-5">
-        <MyButton type="primary">LÆS MERE</MyButton>
+      <div class="flex gap-5 justify-center md:justify-start ml-3 pt-4 lg:mb-5">
+        <MyButton type="primary">BOOK REJSE</MyButton>
+        <MyButton type="secondary">LÆS MERE</MyButton>
       </div>
     </div>
   <!-- </a> -->

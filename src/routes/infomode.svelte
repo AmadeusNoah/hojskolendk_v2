@@ -8,11 +8,14 @@
   subtitle="Få svar på alle dine spørgsål"
   title="VÆR MED TIL VORES INFOMØDER"
 />
+
+<div class="m-9 broedkrummer">
+  <a href="index">Forside /</a>
+  <a href="alleophold" class="underline broedkrummer">Tilmeld infomøde /</a>
+</div>
+
+
 <main>
-  <div class="preh2">
-    <a href="indec">Forside /</a>
-    <a href="alleophold" class="underline preh2">Tilmeld infomøde</a>
-  </div>
 
   <section class="maxwidthwrapper">
     <p class="preh2">GRATIS & UFORPLIGTENDE</p>

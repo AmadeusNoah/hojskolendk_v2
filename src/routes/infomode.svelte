@@ -3,11 +3,32 @@
   import Infomodecard from "../components/infomode_card.svelte";
 </script>
 
-<Header
-  imgtitle="social7.webp"
-  subtitle="Få svar på alle dine spørgsål"
-  title="VÆR MED TIL VORES INFOMØDER"
-/>
+<header class="h-full w-full relative overflow-hidden" id="video">
+  <video class="z-0 hero-image" loop muted autoplay src="herofrontpage.mp4" />
+  <div class="hero-text m-auto">
+    <p class="text-white">HØJSKOLEOPHOLD I UDLANDET</p>
+    <h1 class="">FÆLLESKAB & REJSEEVENTYR</h1>
+  </div>
+
+  <div class="absolute z-50 bottom-14 left-[calc(50%-25px)] h-12 w-auto">
+    <img class="h-auto w-12" src="scroll_down.png" alt="scroll down icon" />
+  </div>
+  <div class="wave absolute bottom-[6px]">
+    <svg
+      width="3311"
+      height="69"
+      viewBox="0 0 3311 69"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1117.7 32.6112C407.753 27.7762 99.6691 49.7522 0 66.7752V69L170.798 67.9949H640.254H3311V32.6112V0C3214.82 13.0946 2921.85 49.8962 2519.46 56.1817C2016.46 64.0384 2005.13 38.6548 1117.7 32.6112Z"
+        fill="white"
+      />
+    </svg>
+  </div>
+</header>
+
 <main>
   <div class="preh2">
     <a href="indec">Forside /</a>
@@ -24,6 +45,22 @@
     </p>
     <br />
     <hr />
+  </section>
+
+  <section class="maxwidthwrapper">
+    <div>
+      <p class="preh2">GRATIS & UFORPLIGTENDE</p>
+      <h2>MØD OS OG BLIV KLOGERE</h2>
+      <p>
+        Hvis du drømmer om et fantastisk rejseeventyr med masser af adventure,
+        vilde naturoplevelser, spændende kulturmøder og et stærkt
+        højskole-fællesskab, så hop med på et af vores hyggelige infomøder. Du
+        møder Thomas, Amadeus eller Emil (ejerne af HÖJSKOLENDK), nogle af vores
+        skønne tidligere elever.
+      </p>
+      <button>TILMELD DIG INFOMØDE</button>
+    </div>
+    <img src="" alt="" />
   </section>
 
   <section class="maxwidthwrapper grid gap-10">

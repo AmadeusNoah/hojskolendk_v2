@@ -19,7 +19,7 @@
     <h1 class="">FÆLLESKAB & REJSEEVENTYR</h1>
   </div>
 
-  <div class="absolute z-50 bottom-14 left-[calc(50%-25px)] h-12 w-auto">
+  <div class="absolute z-50 bottom-24 left-[calc(50%-25px)] h-12 w-auto">
     <img class="h-auto w-12" src="scroll_down.png" alt="scroll down icon">
   </div>
   <div class="wave absolute bottom-[6px]">

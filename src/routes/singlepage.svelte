@@ -148,6 +148,7 @@
     min-width: 12rem;
     text-align: left;
     margin: 1rem;
+    margin-left: 0rem;
     display: inline-block;
     overflow: hidden;
   }
@@ -168,7 +169,7 @@
   }
 
   .max_width_single {
-    max-width: 1400px;
+    max-width: 1200px;
   }
 
   #navbar {

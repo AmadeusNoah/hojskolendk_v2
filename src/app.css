@@ -100,14 +100,14 @@
   } */
 
   .maxwidthwrapper {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
     padding-left: 1rem;
     padding-right: 1rem;
   }
 
   .maxwidthwrapper_card {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
     
   }
@@ -118,6 +118,7 @@
     font-family: var(--h1_text);
     font-size: var(--font_h1);
     color: var(--hvid);
+    max-width: 75ch;
   }
 
   h2 {
@@ -128,14 +129,17 @@
     letter-spacing: 1px;
     padding-top: var(--spacing-10);
     padding-bottom: var(--spacing-10);
+    max-width: 75ch;
   }
 
   h3 {
     font-size: var(--font_h3);
+    max-width: 75ch;
   }
 
   h4 {
     font-size: var(--font_h4);
+    max-width: 75ch;
   }
 
   p {
@@ -144,6 +148,7 @@
     color: var(--txtcolor-600);
     line-height: 1.6;
     font-weight: 400;
+    max-width: 75ch;
   }
 
   .preh2 {
@@ -208,6 +213,7 @@ sidebar button {
   padding: 0;
   padding-bottom: 0.3rem;
   font-size: 0.75rem;
+  margin-left: 0;
 }
 
 sidebar button:hover {

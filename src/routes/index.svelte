@@ -19,6 +19,9 @@
     <h1 class="">FÆLLESKAB & REJSEEVENTYR</h1>
   </div>
 
+  <div class="absolute z-50 bottom-14 left-[calc(50%-25px)] h-12 w-auto">
+    <img class="h-auto w-12" src="scroll_down.png" alt="scroll down icon">
+  </div>
   <div class="wave absolute bottom-[6px]">
     <svg
       width="3311"
@@ -51,7 +54,7 @@
             animation={"from-left 1s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}
           >
             <h2>
-              REJSEEVENTYR, SOMMER VIBES & <br /> ET FÆLLESSKAB I VERDENSKLASSE
+              REJSEEVENTYR, SOMMER VIBES & FÆLLESSKAB I VERDENSKLASSE
             </h2>
           </Saos>
         </div>
@@ -118,7 +121,7 @@
       <Card image="ophold4.webp" title="Costa Rica, Mexico & Guatemala" />
     </div>
     <div class="md:justify-center md:grid pt-6">
-      <MyButton type="primary">UDFORSK ALLE VORES OPHOLD</MyButton>
+      <MyButton type="primary">UDFORSK VORES OPHOLD</MyButton>
     </div>
   </div>
 </section>
@@ -242,7 +245,7 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
       src="social5.webp"
       alt="instagram - Glade piger på tur"
     />
-    <img
+    <!-- <img
       class="sm:row-start-3 sm:col-start-3 hidden sm:grid lg:col-start-1 object-cover w-full aspect-square"
       src="riverrafting4.webp"
       alt="instagram - river rafting tur"
@@ -261,7 +264,7 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
       class="sm:row-start-3 sm:col-start-3 hidden sm:grid lg:col-start-4 object-cover w-full aspect-square"
       src="social12.webp"
       alt="instagram - Alle elever har pakket tasker"
-    />
+    /> -->
   </div>
 </section>
 

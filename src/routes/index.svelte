@@ -133,7 +133,7 @@
     <p class="preh2">ELSKET AF 2500+ ELEVER</p>
     <h2>SE VORES ANMELDELSER</h2>
     <img class="md:bg-contain" src="trustpilot_logo.png" alt="truspilot logo" />
-    <div class="md:flex grid gap-16 md:gap-5 mt-10 mx-auto justify-around">
+    <div class="md:flex grid gap-16 md:gap-5 mt-10 mx-auto justify-between">
       <CardTrustpilot
         title="Venskaber for livet"
         text="vil du venskaber og gode oplevelser i god kombi med en meget tryg rejseoplevelse, så synes jeg du skal investere i dig selv og købe en højskolerejse med HÖJSKOLENDK. du vil aldrig du vil aldrig fortryde eller glemme det. afsted !"

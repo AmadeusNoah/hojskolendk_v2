@@ -13,11 +13,11 @@
 </script>
 
 <section
-  class="ophold items-center mb-5 pb-6 lg:pb-0 lg:flex lg:max-h-[350px] lg:gap-5"
+  class="ophold items-center mb-5 pb-6 lg:pb-0 lg:flex lg:max-h-[350px] lg:gap-5 hover:scale-105  overflow-hidden"
   transition:scale={{ duration: 1000, easing: expoInOut }}
 >
   <!-- <a href="/singlepage"> -->
-    <div class="h-full w-full object-cover lg:max-w-[30%] ">
+    <div class="h-full w-full object-cover lg:max-w-[30%]">
       <img src={image} alt={title} class="h-full w-full" />
     </div>
     <div>
@@ -32,7 +32,7 @@
             <p class="">Næste afrejse:</p>
             <p class="tabeltxt">{dato}</p>
           </div>
-          <div class="h-10 hidden md:block bg-gray-500 w-0.5 ml-3 mr-6" />
+          <div class="h-10 hidden md:block bg-gray-500 hover:bg-black w-0.5 ml-3 mr-6" />
         </div>
 
         <div class="flex col-start-2 place-items-center ">
@@ -61,8 +61,9 @@
           </div>
         </div>
       </div>
-      <div class="grid justify-center md:justify-start ml-3 pt-4 lg:mb-5">
-        <MyButton type="primary">Læs mere</MyButton>
+      <div class="flex gap-5 justify-center md:justify-start ml-3 pt-4 lg:mb-5">
+        <MyButton type="primary">BOOK REJSE</MyButton>
+        <MyButton type="secondary">LÆS MERE</MyButton>
       </div>
     </div>
   <!-- </a> -->

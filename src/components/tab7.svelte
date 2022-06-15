@@ -7,7 +7,7 @@
 <main class="col-start-2 w-[99%]">
   <!-- SECTION 1 -->
   <section class="maxwidthwrapper" id="no-pad">
-    <h2>ADVENTURE, OPLEVELSER & AKTIVITETER</h2>
+    <h2>FRIUGER & FRIHED TIL AT OPLEVE PÅ EGEN HÅND</h2>
     <p>
       I løbet af dit ophold hos os, er det muligt at deltage i vores
       spændingsfyldte udflugter og dagsture. Besøg vandfald, tag på

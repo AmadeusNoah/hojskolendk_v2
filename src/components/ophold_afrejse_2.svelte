@@ -51,8 +51,8 @@
     </div>
   </div>
   <div class="flex lg:grid lg:grid-rows-2 justify-center py-4 gap-8 lg:gap-4">
-    <MyButton type="ghostbutton">UDSOLGT</MyButton>
-    <MyButton type="secondary">VENTLISTE</MyButton>
+    <MyButton type="ghostbutton"> <a href="/underconstruction"> UDSOLGT </a> </MyButton>
+    <MyButton type="secondary"> <a href="/underconstruction"> VENTLISTE </a> </MyButton>
   </div>
 </section>
 

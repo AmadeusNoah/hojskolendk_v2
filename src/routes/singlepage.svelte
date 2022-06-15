@@ -37,7 +37,7 @@
 
 <main class="max_width_single relative">
   <section class="md:custom_grid hidden md:grid md:gap-10 lg:gap-20">
-    <sidebar id="navbar" class="block cols-start-1 top-0 sticky">
+    <sidebar id="navbar" class="block cols-start-1 top-0 sticky pl-2">
       <div class="sticky top-28 pb-16">
         <h2 class="text:sm m:1 mb:6 w-[237px]">
           ALT DU SKAL VIDE <br /> OM OPHOLDET

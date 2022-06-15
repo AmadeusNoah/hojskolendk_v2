@@ -312,7 +312,7 @@
 
   <section class="flex justify-end px-4">
     <MyButton type="linkbutton">
-      HVAD ER INKLUDERET <svg
+      PROGRAM <svg
         class="m-auto"
         width="18"
         height="16"

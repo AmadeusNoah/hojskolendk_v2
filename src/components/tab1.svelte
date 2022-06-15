@@ -10,7 +10,7 @@
     class="maxwidthwrapper grid gap-5"
     id="no-pad"
   >
-    <div>
+    <div class="text-center m-auto">
       <h2 itemprop="keywords">SURF, SOL & BEACH VIBES</h2>
       <p itemprop="description">
         Når vi ikke arbejder, nyder vi stranden, drikker lækre drinks på

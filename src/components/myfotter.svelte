@@ -20,8 +20,10 @@
       <div>
         <!-- hvid cirkel -->
         <div>
-          <div class="cirkel m-auto grid justify-center">
-            <img class="m-auto" src="brev.png" alt="brev ikon" />
+          <div class="cirkel m-auto grid justify-center items-center">
+            <a href="mailto:info@hojskolendk.dk">
+              <img class="m-auto" src="brev.png" alt="brev ikon" />
+            </a>
           </div>
           <p>Skriv til os</p>
         </div>

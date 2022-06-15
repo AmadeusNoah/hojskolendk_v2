@@ -21,7 +21,7 @@
     <p class="preh2">FØR OPHOLDET</p>
     <div class="faq-drawer">
       <input
-        class="faq-drawer__trigger"
+        class="faq-drawer__trigger "
         id="faq-drawer"
         type="checkbox"
       /><label class="faq-drawer__title" for="faq-drawer"
@@ -30,7 +30,7 @@
 
       <div class="faq-drawer__content-wrapper">
         <div class="faq-drawer__content">
-          <p>
+          <p class="">
             Vi anbefaler dig stærkt at tilmelde dig, lige så snart du er
             afklaret og har besluttet dig for, at du vil med os på eventyr. Der
             er meget stor interesse for vores højskoleophold i udlandet og på
@@ -310,6 +310,7 @@
     position: relative;
     margin-bottom: 0;
     transition: all 0.25s ease-out;
+    font-size: var(--font_p);
   }
 
   .faq-drawer__title::after {

@@ -16,50 +16,51 @@
   $: console.log(inputValue);
 </script>
 
-<div class="accordion w-full md:grid">
+<div
+  class="maxwidthwrapper max-w-fit  accordion custom_grid w-full block items-center mb-4"
+>
   <div
-    class="h-full grids-start-1 md:col-start-1 md:grid-rows-1 xl:max-w-[500px] "
+    class=" grids-start-1 md:grid-rows-1 xl:max-w-[500px] divide-x-8 > * + * "
   >
-    <h2 class=" text-center">{dag}</h2>
-    <h2 class="text-center">{month}</h2>
-    <div class="streg h-0.5 w-full md:hidden" />
+    <div class=" justify-center items-center ">
+      <h2 class="special text-center m-0 p-0">{dag}</h2>
+      <h2 class="text-center mb-2 p-0">{month}</h2>
+      <div class="streg h-0.5 w-full md:hidden" />
+    </div>
   </div>
 
-  <div
-    class="p-4 md:grid gap-4 xl:gap-7 grids-start-2  md:col-start-2 md:grid-rows-1"
-  >
+  <div class="p-4 gap-4 xl:gap-7">
     <div class="">
-      <h3>{title}</h3>
-      <p>{subtitle}</p>
+      <h4>{title}</h4>
     </div>
-    <div class="xl:flex xl:gap-7">
+
+    <div class="md:flex md:gap-10 mt-4">
       <div class="flex mt-5 lg:mt-0 gap-4  items-center">
-        <img class="w-8 h-8" src="destination.png" alt="pris ikon" />
+        <img class="w-6 h-8" src="destination.png" alt="pris ikon" />
         <div class="w-22">
-          <p class="">Adresse:</p>
+          <p class="font-bold">Adresse:</p>
           <p class="tabeltxt ">{vej}</p>
           <p class="tabeltxt ">{by}</p>
         </div>
+        <div class="hidden md:block streg h-10 w-0.5 ml-3" />
       </div>
-      <div class="flex mt-5 lg:mt-0 gap-4 items-center">
-        <img class="w-8 h-8 " src="clock.png" alt="kalender ikon" />
+      <div class="flex mt-5 lg:mt-0 gap-4">
+        <img class="w-8 h-8 self-center" src="clock.png" alt="kalender ikon" />
         <div>
-          <p class="">Tid:</p>
+          <p class="font-bold">Tid:</p>
           <p class="tabeltxt">{tid}</p>
         </div>
-
-        <div class="h-10 bg-slate-400 w-0.5 hidden xl:block" />
       </div>
       <div class="h-10 bg-black w-0.5 hidden" />
     </div>
     <div class="flex sm:justify-start pt-4" />
   </div>
-  <button class=" md:col-start-3 md:grid-rows-1" on:click={handleClick}
-    >{!open ? "TILMELD DIG INFOMØDE" : "PIK"}</button
+  <button type="smallbutton" on:click={handleClick}
+    >{!open ? "TILMELD DIG INFOMØDE" : "LUK"}</button
   >
 
   {#if open}
-    <div class="details md:col-start-1 md:grid-rows-2" transition:slide>
+    <div class="details custom_column" transition:slide>
       <InfomodeCard
         image="stud_kbh.webp"
         title="Infomøde København"
@@ -107,9 +108,26 @@
     background-color: var(--txtcolor);
   }
 
-  h3 {
+  .special {
+    font-size: var(--font_h1);
+  }
+
+  p {
+    font-size: var(--font_p_tabel);
+  }
+  h4 {
     font-family: var(--h2_text);
-    font-size: var(--font_h2);
     color: var(--textcolor-700);
+  }
+
+  @media screen and (min-width: 800px) {
+    .custom_grid {
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+    }
+
+    .custom_column {
+      grid-column: 1 / 4;
+    }
   }
 </style>

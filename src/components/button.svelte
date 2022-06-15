@@ -53,6 +53,24 @@
     border: solid 1px white;
   }
 
+  .smallbutton {
+    font-size: 0.75rem;
+    font-weight: bold;
+    font-family: "Lato", sans-serif;
+    background-color: var(--primary-button-cta-background-color);
+    border: 1px solid var(--secondary-button-cta-border-color);
+    color: var(--hvid);
+    padding: 0.5rem 15px;
+    display: inline-block;
+    box-shadow: inset 0 0 0 0 var(--orange-800);
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    white-space: nowrap;
+    width: 13rem;
+    height: 3rem;
+  }
+
   /* -----MODE=LINK START --------- */
   .linkbutton {
     color: var(--txtcolor-600);

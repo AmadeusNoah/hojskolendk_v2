@@ -63,60 +63,39 @@
     </div>
   </section>
 
-  <Accordion
-    dag="19"
-    month="JUN"
-    title="Infomøde København"
-    subtitle="For dig der drømmer om dit livs eventyr"
-    tid="Kl. 17:00 - 19:00"
-    vej="Købmagergade 29,"
-    by=" 1970 Købbenhavn K"
-  />
-
-  <!-- <section class="maxwidthwrapper grid gap-10">
+  <section class="maxwidthwrapper grid gap-10">
     <div>
       <p class="preh2">ONLINE OG FYSISKE MØDER</p>
       <h2>KOMMENDE INFOMØDER</h2>
     </div>
-    <Infomodecard
-      image="stud_kbh.webp"
+    <Accordion
+      dag="19"
+      month="JUN"
       title="Infomøde København"
       subtitle="For dig der drømmer om dit livs eventyr"
-      dato="06 Maj 22"
       tid="Kl. 17:00 - 19:00"
-      adresse="Studenterhuset København Købmagergade 29, 1970 Købbenhavn K"
+      vej="Købmagergade 29,"
+      by=" 1970 Købbenhavn K"
     />
-    <Infomodecard
-      image="stud_odense.webp"
-      title="Infomøde Odense"
+    <Accordion
+      dag="23"
+      month="JUL"
+      title="Infomøde Aarhus"
       subtitle="For dig der drømmer om dit livs eventyr"
-      dato="10 Maj 22"
       tid="Kl. 17:00 - 19:00"
-      adresse="Studenterhuset Aarhus
-Købmagergade 29,
-1970 Aarhus"
+      vej="Vestergade 49,"
+      by="8000 Aarhus C"
     />
-    <Infomodecard
-      image="zoom.webp"
-      title="Online Infomøde"
+    <Accordion
+      dag="12"
+      month="AUG"
+      title="Infomøde Online"
       subtitle="For dig der drømmer om dit livs eventyr"
-      dato="12 Maj 22"
       tid="Kl. 17:00 - 19:00"
-      adresse="Zoom.com"
+      vej="Online,"
+      by="Vi sender dig et link"
     />
   </section>
-
-  <section class="maxwidthwrapper grid">
-    <h3>Juni 2022</h3>
-    <Infomodecard
-      image="stud_kbh.webp"
-      title="Infomøde København"
-      subtitle="For dig der drømmer om dit livs eventyr"
-      dato="06 Juni 22"
-      tid="Kl. 17:00 - 19:00"
-      adresse="Studenterhuset København Købmagergade 29, 1970 Købbenhavn K"
-    />
-  </section> -->
 </main>
 
 <style>

@@ -536,7 +536,7 @@
         </li>
       </ul>
       <div class="hidden lg:grid">
-        <Button>KONTAKT</Button>
+        <Button> <a href="/underconstruction"> KONTAKT </a></Button>
       </div>
     </div>
   </div>

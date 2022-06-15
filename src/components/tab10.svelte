@@ -11,14 +11,14 @@
         <div class="lg:col-start-1">
           <img
             class="w-full h-full object-cover"
-            src="anton.webp"
+            src="rejseleder.jpg"
             alt="Billede af din rejseleder"
           />
         </div>
         <div
           class="lg:col-start-2 lg:col-span-2 p-6 lg:p-10 m-auto max-w-[50ch]"
         >
-          <h3 class="pb-4">Anton Skou Larsen</h3>
+          <h3 class="pb-4">Kim Daugaard</h3>
           <p>
             Jeg har, siden jeg var ganske lille, haft stor lyst og trang til at
             udforske verden. Jeg har altid været interesseret i naturen; gåture
@@ -38,7 +38,7 @@
 
             <br />
             <br />
-            Højskolesmil, <br /> Anton
+            Højskolesmil, <br /> Kim D
           </p>
         </div>
       </div>

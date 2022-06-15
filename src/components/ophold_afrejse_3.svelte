@@ -51,8 +51,8 @@
     </div>
   </div>
   <div class="flex lg:grid lg:grid-rows-2 justify-center py-4 gap-8 lg:gap-4">
-    <MyButton type="primary">TILMELD</MyButton>
-    <MyButton type="secondary">RESERVER</MyButton>
+    <MyButton type="primary"> <a href="/underconstruction"> TILMELD </a> </MyButton>
+    <MyButton type="secondary"> <a href="/underconstruction"> RESERVER </a></MyButton>
   </div>
 </section>
 

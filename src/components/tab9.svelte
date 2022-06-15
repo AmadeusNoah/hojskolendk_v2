@@ -51,7 +51,7 @@
         <div class="lg:col-start-1">
           <img
             class="w-full h-full object-cover"
-            src="rejsebrev_2.webp"
+            src="rejsebrev_2.png"
             alt="rejseleder med stort smil"
           />
         </div>

@@ -62,8 +62,8 @@
         </div>
       </div>
       <div class="flex gap-5 justify-center md:justify-start ml-3 pt-4 lg:mb-5">
-        <MyButton type="primary">BOOK REJSE</MyButton>
-        <MyButton type="secondary">LÆS MERE</MyButton>
+        <MyButton type="primary"> <a href="/underconstruction"> BOOK REJSE </a> </MyButton>
+        <MyButton type="secondary"> <a href="/singlepage"> LÆS MERE </a> </MyButton>
       </div>
     </div>
   <!-- </a> -->

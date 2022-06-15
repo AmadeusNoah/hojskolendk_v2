@@ -69,8 +69,10 @@
         VIL DU VIDE MERE OM VORES HØJSKOLEOPHOLD I UDLANDET?
       </h2>
       <p class="text-white mb-4">Tilmeld dig et infomøde og hør meget mere..</p>
+      
+      
 
-      <MyButton type="secondary">TILMELD INFOMØDE</MyButton>
+      <MyButton type="secondary">  <a href="infomode"> TILMELD INFOMØDE </a> </MyButton>
     </div>
     <div />
     <div class="footer_adress text-white">

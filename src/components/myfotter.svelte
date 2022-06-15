@@ -12,8 +12,10 @@
     <div class="footer_kontakt">
       <div>
         <!-- hvid cirkel -->
-        <div class="cirkel m-auto grid justify-center">
-          <img class="m-auto" src="call.png" alt="telefon ikon" />
+        <div class="cirkel m-auto grid justify-center items-center">
+          <a href="tel:7027 9007">
+            <img class="m-auto" src="call.png" alt="telefon ikon" />
+          </a>
         </div>
         <p>Ring til os</p>
       </div>
@@ -31,8 +33,10 @@
       <div>
         <!-- hvid cirkel -->
         <div>
-          <div class="cirkel m-auto grid justify-center">
-            <img class="m-auto" src="messenger.png" alt="chat ikon" />
+          <div class="cirkel m-auto grid justify-center items-center">
+            <a href="https://www.facebook.com/hojskolendk">
+              <img class="m-auto" src="messenger.png" alt="chat ikon" />
+            </a>
           </div>
           <p>Chat med os</p>
         </div>
@@ -40,8 +44,10 @@
       <div>
         <!-- hvid cirkel -->
         <div>
-          <div class="cirkel m-auto grid justify-center">
-            <img class="m-auto" src="people.png" alt="brev ikon" />
+          <div class="cirkel m-auto grid justify-center items-center">
+            <a href="/infomode">
+              <img class="m-auto" src="people.png" alt="brev ikon" />
+            </a>
           </div>
           <p>Infoaften</p>
         </div>
@@ -85,10 +91,14 @@
           <div>
             <ul>
               <li><strong> Adresse</strong></li>
-              <li>HÔJSKOLENDK</li>
-              <li>Rosenørns Allé 29</li>
-              <li>1970 Frederiksberg</li>
-              <li>CVR: 12345678</li>
+              <a
+                href="https://www.google.com/maps/place/H%C3%B6jskolendk/@55.6821898,12.5488965,17z/data=!3m1!4b1!4m5!3m4!1s0x464c73ea933595af:0x46c16908bad22613!8m2!3d55.6821868!4d12.5510852"
+              >
+                <li>HÔJSKOLENDK</li>
+                <li>Rosenørns Allé 29</li>
+                <li>1970 Frederiksberg</li>
+                <li>CVR: 12345678</li>
+              </a>
             </ul>
             <br />
           </div>
@@ -96,8 +106,10 @@
           <div>
             <ul>
               <li><strong>Kontakt info</strong></li>
-              <li>+45 3967 2065</li>
-              <li><a href="">info@hojskolen.dk</a></li>
+              <li><a href="tel:7027 9007">+45 3967 2065</a></li>
+              <li>
+                <a href="mailto:info@hojskolendk.dk">info@hojskolen.dk</a>
+              </li>
             </ul>
           </div>
         </div>

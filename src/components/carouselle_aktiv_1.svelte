@@ -24,14 +24,14 @@
       <Cardfri
         image="ophold4.webp"
         title="River floating"
-        addon="ADD ON"
+        addon=""
         text="Tag på udflugt til Mahfushi et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
         Hawaii er et af verdens bedste surfstede af, så i skal så i skal selføgelig lærer at “ride the waves”.  
         "
       />
       <Cardfri
         image="ophold3.webp"
-        title="Tømmerflåde overlevelse"
+        title="Tømmerflådetur"
         addon="INKLUDED"
         text="Yoga på stranden er fantastisk afbræk så i skal selføgelig lærer at “ride the waves”.  
         Hawaii er et af verdens bedste surfsteder, så i.Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
@@ -39,8 +39,8 @@
       />
       <Cardfri
         image="ophold2.webp"
-        title="Trecking"
-        addon="ADD ON"
+        title="Trekking"
+        addon=""
         text="Tag ud om natten og fang fisk med line, , så i skal selføgelig lærer at “ride the waves”.  
         Hawaii er et af verdens bedste surfsteder, så i.Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
         "
@@ -48,7 +48,7 @@
       <Cardfri
         image="ferie3.webp"
         title="Jungle Poolparty"
-        addon="ADD ON"
+        addon="INKLUDERET"
         text="En unik måde at se øen på fire ben så i skal selføgelig lærer at “ride the waves”.  
         Hawaii er et af verdens bedste surfsteder er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
         "
@@ -57,7 +57,7 @@
       <Cardfri
         image="ferie6.webp"
         title="Beachvolley turnering"
-        addon="ADD ON"
+        addon="INKLUDERET"
         text="Trænger du til luksus?il Hilton hotel så i skal selføgelig lærer at “ride the waves”.  
         Hawaii er et af verdens bedste surfsteder, så i.Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
         "
@@ -66,7 +66,7 @@
       <Cardfri
         image="m_snorkel.webp"
         title="Snorkling"
-        addon="ADD ON"
+        addon=""
         text="Et af verdens smukkeste steder at snorkle,  så i skal selføgelig lærer at “ride the waves”.  
         Hawaii er et af verdens bedste surfsteder, så i.Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
         "

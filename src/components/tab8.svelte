@@ -20,7 +20,7 @@
 
   <!-- SECTION 2 -->
 
-  <section class="max-w-[1100px] px-4">
+  <section class="max-w-[880px] px-4">
     <div class="">
       <p class="preh2">ADVENTURE & AKTIVITETER</p>
       <h3 class="display">THAILAND</h3>
@@ -30,7 +30,7 @@
 
   <!-- SECTION 3 -->
 
-  <section class="max-w-[1100px] px-4">
+  <section class="max-w-[880px] px-4">
     <div class="">
       <p class="preh2">ADVENTURE & AKTIVITETER</p>
       <h3 class="display">MALDIVERNE</h3>
@@ -39,7 +39,7 @@
   </section>
 
   <!-- SECTION 4 -->
-  <section class="max-w-[1100px] px-4">
+  <section class="max-w-[880px] px-4">
     <div class="">
       <p class="preh2">ADVENTURE & AKTIVITETER</p>
       <h3 class="display">SRI LANKA</h3>

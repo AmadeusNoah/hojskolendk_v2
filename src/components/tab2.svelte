@@ -18,7 +18,7 @@
       <hr />
     </section>
 
-    <section class="grid gap-20 lg:col-start-1 inkl">
+    <section class="grid gap-20 lg:col-start-1 inkl ">
       <div>
         <div>
           <p class="preh2">DET FÅR DU MED</p>

@@ -31,7 +31,6 @@
           dotivis. Eda bokstav bejåligt. Heminade abel oaktat prest. bejåligt.
           Heminade abel oaktat prest.
         </p>
-        <button>Læs mere</button>
       </div>
     </div>
     <div class="lg:col-start-2">
@@ -161,7 +160,7 @@
     <div class="lg:col-start-2 lg:row-start-1">
       <img
         class="object-cover w-full aspect-square"
-        src="solnedgang.webp"
+        src="uge_9.jpg"
         alt="drenge hygger i golden hour"
       />
     </div>

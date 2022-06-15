@@ -6,7 +6,7 @@
 
 <main class="col-start-2 w-[99%]">
   <!-- SECTION 1 -->
-  <section class="maxwidthwrapper" id="no-pad">
+  <section class="max-w-[880px]" id="no-pad">
     <h2>FRIUGER & FRIHED TIL AT OPLEVE PÅ EGEN HÅND</h2>
     <p>
       I løbet af dit ophold hos os, er det muligt at deltage i vores
@@ -19,7 +19,7 @@
   </section>
 
   <!-- SECTION 2 -->
-  <section class="max-w-[1100px] px-4">
+  <section class="max-w-[880px] px-4">
     <div class="">
       <p class="preh2">FRIUGE 1</p>
       <h3 class="display">MALDIVERNE</h3>
@@ -28,7 +28,7 @@
   </section>
 
   <!-- SECTION 3 -->
-  <section class="max-w-[1100px] px-4">
+  <section class="max-w-[880px] px-4">
     <div class="">
       <p class="preh2">FRIUGE 2</p>
       <h3 class="display">SRI LANKA</h3>
@@ -37,7 +37,7 @@
   </section>
 
   <!-- SECTION 4 -->
-  <section class="max-w-[1100px] px-4">
+  <section class="max-w-[880px] px-4">
     <div class="">
       <p class="preh2">FRIUGE 3</p>
       <h3 class="display">THAILAND</h3>

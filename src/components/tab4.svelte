@@ -28,13 +28,12 @@
           dotivis. Eda bokstav bejåligt. Heminade abel oaktat prest. bejåligt.
           Heminade abel oaktat prest.
         </p>
-        <button>Læs mere</button>
       </div>
     </div>
     <div class="lg:col-start-2">
       <img
         class="object-cover w-full aspect-square"
-        src="sogk.webp"
+        src="sogk.jpg"
         alt="unge mennekser danser og griner"
       />
     </div>
@@ -55,7 +54,6 @@
           dotivis. Eda bokstav bejåligt. Heminade abel oaktat prest. bejåligt.
           Heminade abel oaktat prest.
         </p>
-        <button>Læs mere</button>
       </div>
     </div>
     <div class="lg:col-start-1 lg:row-start-1">
@@ -80,13 +78,12 @@
           dotivis. Eda bokstav bejåligt. Heminade abel oaktat prest. bejåligt.
           Heminade abel..
         </p>
-        <button>Læs mere</button>
       </div>
     </div>
     <div class="lg:col-start-2">
       <img
         class="object-cover w-full aspect-square "
-        src="m_yoga.webp"
+        src="rafting_undervisning.jpg"
         alt="riverrafting i høje bølger"
       />
     </div>

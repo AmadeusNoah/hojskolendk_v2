@@ -23,15 +23,15 @@
     <div class="flex gap-5 overflow-x-scroll">
       <Cardfri
         image="adventure_hike.webp"
-        title="Jungle Hiking"
-        addon="ADD ON"
+        title="Jungle Hike"
+        addon="Jungle Hike"
         text="Tag på udflugt til Mahfushi et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
         Hawaii er et af verdens bedste surfstede af, så i skal så i skal selføgelig lærer at “ride the waves”.  
         "
       />
       <Cardfri
         image="adventure_kajak.webp"
-        title="Kajak og telt tur"
+        title="3 dages kajaktur"
         addon="INKLUDED"
         text="Yoga på stranden er fantastisk afbræk så i skal selføgelig lærer at “ride the waves”.  
         Hawaii er et af verdens bedste surfsteder, så i.Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
@@ -39,7 +39,7 @@
       />
       <Cardfri
         image="adventue_sky.webp"
-        title="Skydiving"
+        title="Paragliding"
         addon="ADD ON"
         text="Tag ud om natten og fang fisk med line, , så i skal selføgelig lærer at “ride the waves”.  
         Hawaii er et af verdens bedste surfsteder, så i.Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
@@ -47,7 +47,7 @@
       />
       <Cardfri
         image="adventure_klatre.webp"
-        title="Klatretur på bjergside"
+        title="Bouldering"
         addon="ADD ON"
         text="En unik måde at se øen på fire ben så i skal selføgelig lærer at “ride the waves”.  
         Hawaii er et af verdens bedste surfsteder er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
@@ -64,7 +64,7 @@
       />
       <Cardfri
         image="m_hotel.webp"
-        title="Dagstur til Hilton hotelø"
+        title="Dagstur til Hilton hotel-ø"
         addon="ADD ON"
         text="Trænger du til luksus?il Hilton hotel så i skal selføgelig lærer at “ride the waves”.  
       Hawaii er et af verdens bedste surfsteder, så i.Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
@@ -95,7 +95,7 @@
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
-    max-width: 100%;
+    width: 100%;
   }
 
   #carowrapper {

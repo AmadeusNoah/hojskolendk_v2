@@ -19,12 +19,10 @@
 <div
   class="maxwidthwrapper max-w-fit  accordion custom_grid w-full block items-center mb-4"
 >
-  <div
-    class=" grids-start-1 md:grid-rows-1 xl:max-w-[500px] divide-x-8 > * + * "
-  >
-    <div class=" justify-center items-center ">
-      <h2 class="special text-center m-0 p-0">{dag}</h2>
-      <h2 class="text-center mb-2 p-0">{month}</h2>
+  <div class=" md:grid-rows-1 xl:max-w-[500px]">
+    <div class="custom-border justify-center items-center ">
+      <h2 class="special text-center -mb-2 p-0">{dag}</h2>
+      <h3 class="text-center mb-2 p-0">{month}</h3>
       <div class="streg h-0.5 w-full md:hidden" />
     </div>
   </div>
@@ -32,9 +30,10 @@
   <div class="p-4 gap-4 xl:gap-7">
     <div class="">
       <h4>{title}</h4>
+      <p>{tid}</p>
     </div>
 
-    <div class="md:flex md:gap-10 mt-4">
+    <!-- <div class="md:flex md:gap-10 mt-4">
       <div class="flex mt-5 lg:mt-0 gap-4  items-center">
         <img class="w-6 h-8" src="destination.png" alt="pris ikon" />
         <div class="w-22">
@@ -52,10 +51,10 @@
         </div>
       </div>
       <div class="h-10 bg-black w-0.5 hidden" />
-    </div>
+    </div> -->
     <div class="flex sm:justify-start pt-4" />
   </div>
-  <button type="smallbutton" on:click={handleClick}
+  <button class="ml-4" on:click={handleClick}
     >{!open ? "TILMELD DIG INFOMØDE" : "LUK"}</button
   >
 
@@ -75,22 +74,22 @@
 
 <style>
   button {
-    font-size: var(--knapsize);
+    font-size: 0.75rem;
     font-weight: bold;
     font-family: "Lato", sans-serif;
     background-color: var(--primary-button-cta-background-color);
     border: 1px solid var(--secondary-button-cta-border-color);
     color: var(--hvid);
-    padding: 0.5rem 30px;
+    padding: 0.5rem 15px;
     display: inline-block;
     box-shadow: inset 0 0 0 0 var(--orange-800);
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
     white-space: nowrap;
-    width: 18rem;
-    height: 4rem;
-    justify-content: center;
+    width: 11.5rem;
+    height: 3rem;
+    margin: 2rem;
   }
 
   button:hover {
@@ -108,26 +107,37 @@
     background-color: var(--txtcolor);
   }
 
-  .special {
-    font-size: var(--font_h1);
+  h2 {
+    font-family: var(--h4_text);
+  }
+  h3 {
+    font-size: var(--h4_text);
   }
 
-  p {
-    font-size: var(--font_p_tabel);
-  }
   h4 {
     font-family: var(--h2_text);
     color: var(--textcolor-700);
   }
 
+  p {
+    font-size: var(--font_p_tabel);
+  }
+
   @media screen and (min-width: 800px) {
     .custom_grid {
       display: grid;
-      grid-template-columns: 1fr 2fr 1fr;
+      grid-template-columns: 0.75fr 2fr 1fr;
     }
 
     .custom_column {
       grid-column: 1 / 4;
+    }
+
+    .custom-border {
+      border-width: 0 3px 0 0;
+      border-style: solid;
+      border-color: var(--txtcolor);
+      margin-right: 2rem;
     }
   }
 </style>

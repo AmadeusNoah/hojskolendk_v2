@@ -2,7 +2,7 @@
   import MyButton from "../components/button.svelte";
 </script>
 
-<section class="ophold max-w-fit block  sm:pb-0 gap-6 shadow-sm">
+<section class="ophold max-w-fit block  sm:pb-0 gap-6">
   <div class="streg h-0.5 w-full " />
   <h3 class="px-8 pt-6 pb-4 mb-4">Tilmeld dig infomødet</h3>
   <div class="sm:grid sm:grid-cols-2">
@@ -13,7 +13,7 @@
           class=" appearance-none w-full py-2 px-3  leading-tight focus:shadow-outline"
           id="name"
           type="text"
-          placeholder="Username"
+          placeholder="Navn"
         />
       </div>
       <div class="mb-4">
@@ -82,7 +82,7 @@
         </div>
       </div>
       <div class="flex items-center justify-between">
-        <MyButton>TILMELD DIG</MyButton>
+        <MyButton type="smallbutton">TILMELD DIG</MyButton>
       </div>
     </form>
     <div class="px-8 pb-8 mb-4">

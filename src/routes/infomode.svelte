@@ -160,14 +160,21 @@
     width: 42px;
     height: 42px;
   }
+
+  .footer_kontakt {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 100px;
+  }
+
+  .cirkel {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 100px;
+    margin: auto;
+  }
   @media screen and (min-width: 700px) {
-    .cirkel {
-      width: 100px;
-      height: 100px;
-      background-color: white;
-      border-radius: 100px;
-      margin: auto;
-    }
     .footer_kontakt {
       grid-template-columns: 1fr 1fr 1fr 1fr;
       max-width: 600px;

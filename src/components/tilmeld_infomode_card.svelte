@@ -102,8 +102,7 @@
 
 <style>
   .ophold {
-    margin: 5px;
-    background-color: var(--sandstone);
+    background-color: var(--sandstone-light);
     margin-bottom: 2rem;
   }
 

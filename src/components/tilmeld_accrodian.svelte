@@ -17,7 +17,7 @@
 </script>
 
 <div
-  class="maxwidthwrapper max-w-fit  accordion custom_grid w-full block items-center mb-4"
+  class="maxwidthwrapper max-w-fit m-auto p-0 accordion custom_grid w-full block items-center mb-4"
 >
   <div class=" md:grid-rows-1 xl:max-w-[500px]">
     <div class="custom-border justify-center items-center ">

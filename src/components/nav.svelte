@@ -374,7 +374,8 @@
             </a>
             <div class="hidden group-hover:block absolute pin-r top-full w-48 ">
               <ul class="bg-white">
-                <li>
+                <li class="flex">
+                  <img src="icon_tidligereelever" alt="">
                   <a
                     href="/underconstruction"
                     class="block text-left py-3 px-3  hover:text-blue-dark text-xs"

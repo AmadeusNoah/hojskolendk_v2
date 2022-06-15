@@ -48,21 +48,50 @@
           on:click={() => (activetab = Tab1)}
           >OPHOLDSOVERSIGT
         </button>
-        <button
-          class={current === "2" ? "selected" : ""}
-          on:click={() => (current = "2")}
-          on:click={() => (activetab = Tab2)}>HVAD ER INKLUDERET</button
-        >
+
         <button
           class={current === "3" ? "selected" : ""}
           on:click={() => (current = "3")}
           on:click={() => (activetab = Tab3)}>PROGRAM</button
         >
+
         <button
           class={current === "4" ? "selected" : ""}
           on:click={() => (current = "4")}
           on:click={() => (activetab = Tab4)}>UNDERVISNINGEN</button
         >
+
+        <button
+          class={current === "8" ? "selected" : ""}
+          on:click={() => (current = "8")}
+          on:click={() => (activetab = Tab8)}>ADVENTURE</button
+        >
+
+        <button
+          class={current === "7" ? "selected" : ""}
+          on:click={() => (current = "7")}
+          on:click={() => (activetab = Tab7)}>FRIUGER</button
+        >
+
+        <button
+          class={current === "9" ? "selected" : ""}
+          on:click={() => (current = "9")}
+          on:click={() => (activetab = Tab9)}>REJSEBREVE</button
+        >
+
+        <button
+        class={current === "10" ? "selected" : ""}
+        on:click={() => (current = "10")}
+        on:click={() => (activetab = Tab10)}>DIN REJSELEDER</button
+      >
+
+        <button
+          class={current === "2" ? "selected" : ""}
+          on:click={() => (current = "2")}
+          on:click={() => (activetab = Tab2)}>HVAD ER INKLUDERET</button
+        >
+        
+        
         <button
           class={current === "5" ? "selected" : ""}
           on:click={() => (current = "5")}
@@ -73,26 +102,10 @@
           on:click={() => (current = "6")}
           on:click={() => (activetab = Tab6)}>GODT AT VIDE</button
         >
-        <button
-          class={current === "7" ? "selected" : ""}
-          on:click={() => (current = "7")}
-          on:click={() => (activetab = Tab7)}>FRIUGER</button
-        >
-        <button
-          class={current === "8" ? "selected" : ""}
-          on:click={() => (current = "8")}
-          on:click={() => (activetab = Tab8)}>ADVENTURE</button
-        >
-        <button
-          class={current === "9" ? "selected" : ""}
-          on:click={() => (current = "9")}
-          on:click={() => (activetab = Tab9)}>REJSEBREVE</button
-        >
-        <button
-          class={current === "10" ? "selected" : ""}
-          on:click={() => (current = "10")}
-          on:click={() => (activetab = Tab10)}>DIN REJSELEDER</button
-        >
+        
+        
+        
+       
       </div>
     </sidebar>
     <svelte:component this={activetab} />
@@ -112,25 +125,22 @@
       <h2 class="text:sm m:1 mb:6 ml-auto text-center">
         Alt du skal vide om opholdet
       </h2>
-      <div class="flex overflow-x-scroll flex-nowrap overflow-hidden">
+      <div class="flex overflow-x-scroll flex-nowrap overflow-hidden mx-4 ">
         <div class="flex flex-nowrap  ">
-          <button class="" on:click={() => (activetab = Tab1)}
-            >OPHOLDSOVERSIGT</button
-          >
-          <button on:click={() => (activetab = Tab2)}>HVAD ER INKLUDERET</button
-          >
+          <button class="" on:click={() => (activetab = Tab1)} >OPHOLDSOVERSIGT</button>
           <button on:click={() => (activetab = Tab3)}>PROGRAM</button>
           <button on:click={() => (activetab = Tab4)}>UNDERVISNINGEN</button>
-          <button on:click={() => (activetab = Tab5)}>AFREJSEDATOER</button>
-          <button on:click={() => (activetab = Tab6)}>GODT AT VIDE</button>
-          <button on:click={() => (activetab = Tab7)}>FRIUGER</button>
-
           <button on:click={() => (activetab = Tab8)}>ADVENTURE</button>
+          <button on:click={() => (activetab = Tab7)}>FRIUGER</button> 
           <button on:click={() => (activetab = Tab9)}>REJSEBREVE</button>
           <button on:click={() => (activetab = Tab10)}>DIN REJSELEDER</button>
+          <button on:click={() => (activetab = Tab2)}>HVAD ER INKLUDERET</button>
+          <button on:click={() => (activetab = Tab5)}>AFREJSEDATOER</button>
+          <button on:click={() => (activetab = Tab6)}>GODT AT VIDE</button>
         </div>
       </div>
     </sidebar>
+
     <svelte:component this={activetab} />
     <!-- {#if activetab === "TabA"}
         <TabA />

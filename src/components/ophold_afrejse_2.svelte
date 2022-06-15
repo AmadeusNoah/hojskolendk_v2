@@ -8,11 +8,15 @@
 <section
   class=" relative background_color_boks p-4 md:m-0 lg:flex lg:justify-around lg:p-4 lg:items-center md:p-0"
 >
-  <img
+
+<div class="absolute top-0 left-0 h-full w-8 bg-red-600">
+  <p class="text "> Udsolgt</p>
+</div>
+  <!-- <img
     class="absolute lg:left-0 lg:top-11 lg:w-32 lg:h-32 z-10 banner"
     src="budsolgt.png"
     alt="Få pladser"
-  />
+  /> -->
 
   <div class="hidden lg:grid lg:text-center lg:justify-items-center relative">
     <img class="w-12 h-12 md:block" src="calender.png" alt="ikon af kalender" />

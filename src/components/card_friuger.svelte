@@ -8,10 +8,10 @@
 <div class="shadox mx-auto my-8 relative z-0 overflow-hidden object-cover">
   <img class="hover:scale-105 object-cover" src={image} alt={title} />
   <div class="bg-white pl-3 pr-3 pt-3 pb-3 z-3 absolute top-4 max-h-full">
-    <h3 class="text-sm">
+    <h3 class="lilletekst">
       {title}
     </h3>
-    <p class="lilletekst">{addon}</p>
+    <!-- <p class="lilletekst">{addon}</p> -->
   </div>
   <p class="mt-3 m-3">{text}</p>
 </div>

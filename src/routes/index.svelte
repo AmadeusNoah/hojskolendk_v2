@@ -78,7 +78,7 @@
           animation={"slide-in-fwd-tr 1.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both"}
         >
           <div class="row-start-4 md:row-auto">
-            <MyButton type="primary">JOIN OS TIL INFOMØDE</MyButton>
+             <MyButton type="primary"> <a href="/infomode"> JOIN OS TIL INFOMØDE </a> </MyButton>
           </div>
         </Saos>
 
@@ -121,7 +121,7 @@
       <Card image="ophold4.webp" title="Costa Rica, Mexico & Guatemala" />
     </div>
     <div class="justify-center grid pt-6">
-      <MyButton type="primary">UDFORSK VORES OPHOLD</MyButton>
+         <MyButton type="primary"> <a href="/alleophold"> UDFORSK VORES OPHOLD </a> </MyButton> 
     </div>
   </div>
 </section>
@@ -133,7 +133,7 @@
     <p class="preh2">ELSKET AF 2500+ ELEVER</p>
     <h2>SE VORES ANMELDELSER</h2>
     <img class="md:bg-contain" src="trustpilot_logo.png" alt="truspilot logo" />
-    <div class="md:flex grid gap-16 md:gap-5 mt-10 mx-auto justify-around">
+    <div class="md:flex grid gap-16 md:gap-5 mt-10 mx-auto justify-between">
       <CardTrustpilot
         title="Venskaber for livet"
         text="vil du venskaber og gode oplevelser i god kombi med en meget tryg rejseoplevelse, så synes jeg du skal investere i dig selv og købe en højskolerejse med HÖJSKOLENDK. du vil aldrig du vil aldrig fortryde eller glemme det. afsted !"
@@ -205,8 +205,8 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
 </section>
 
 
-<section class="maxwidthwrapper"> 
-  <article class="cols-start-1 grid items-center place-items-center">
+<section class="" id="section_5"> 
+  <article class="maxwidthwrapper cols-start-1 grid items-center place-items-center">
     <div class="grid md:grid-cols-2 md:gap-10 lg:gap-20">
 
       <div class="hidden md:grid md:m-auto">
@@ -325,7 +325,7 @@ For os handler det om holdning og handling. Vi tager ansvar som højskole og for
 
 <section> 
   <div class="justify-center grid pt-6">
-    <MyButton type="primary">UDFORSK VORES OPHOLD</MyButton>
+     <MyButton type="primary">  <a href="/alleophold"> UDFORSK VORES OPHOLD </a> </MyButton> 
   </div>
 </section>
 
@@ -353,6 +353,10 @@ For os handler det om holdning og handling. Vi tager ansvar som højskole og for
   }
 
   #section_2 {
+    background-color: var(--sandbeach);
+  }
+
+  #section_5 {
     background-color: var(--sandbeach);
   }
 

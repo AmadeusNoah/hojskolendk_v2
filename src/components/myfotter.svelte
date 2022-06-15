@@ -6,6 +6,8 @@
 <!-- <BuyCard /> -->
 
 <div class="bgfooter overflow-hidden">
+  <p class="preh2 m-auto text-center">KONTAKT OS OG HØR MERE</p>
+  <h2 class="text-center m-auto mb-6">VI STÅR KLAR TIL AT HJÆLPE</h2>
   <div class="maxwidthwrapper">
     <div class="footer_kontakt">
       <div>
@@ -39,7 +41,7 @@
           <div class="cirkel m-auto grid justify-center">
             <img class="m-auto" src="people.png" alt="brev ikon" />
           </div>
-          <p>Infomøder</p>
+          <p>Infoaften</p>
         </div>
       </div>
     </div>
@@ -70,7 +72,9 @@
       </h2>
       <p class="text-white mb-4">Tilmeld dig et infomøde og hør meget mere..</p>
 
-      <MyButton type="secondary">TILMELD INFOMØDE</MyButton>
+      <MyButton type="secondary">
+        <a href="infomode"> TILMELD INFOMØDE </a>
+      </MyButton>
     </div>
     <div />
     <div class="footer_adress text-white">
@@ -189,7 +193,7 @@
   .footer_kontakt {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem;
+    grid-gap: 0.5rem;
     text-align: center;
     padding-bottom: 4rem;
   }
@@ -205,8 +209,8 @@
   }
 
   .cirkel {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     background-color: white;
     border-radius: 100px;
     margin: auto;
@@ -217,8 +221,8 @@
   }
 
   .footer_kontakt img {
-    width: 60px;
-    height: 60px;
+    width: 35px;
+    height: 35px;
   }
 
   .footer_some img {
@@ -306,8 +310,8 @@
     }
 
     .cirkel {
-      width: 180px;
-      height: 180px;
+      width: 100px;
+      height: 100px;
       background-color: white;
       border-radius: 100px;
       margin: auto;
@@ -334,6 +338,8 @@
 
     .footer_kontakt {
       grid-template-columns: 1fr 1fr 1fr 1fr;
+      max-width: 600px;
+      margin: auto;
     }
     .footer_kontakt img {
       margin: auto;

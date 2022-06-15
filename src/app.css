@@ -22,6 +22,7 @@
     --button-ghost-background-color: var(--txtcolor);
 
     --sandstone: #faf9f7;
+    --sandstone-light: #fffbfb;
     --sandbeach: rgba(250, 240, 219, 0.8);
     --sandbeach-500: rgba(250, 240, 219, 0.5);
     --hvid: #ffffff;
@@ -69,8 +70,7 @@
     --spacing-button: 0.6rem 0.9rem;
 
     /* PADDING */
-    --padding-sections : clamp(0.5rem, 50%, 4rem);
-
+    --padding-sections: clamp(0.5rem, 50%, 4rem);
 
     /*LINE HIGHT */
     --line-s: 0.8;
@@ -109,7 +109,6 @@
   .maxwidthwrapper_card {
     max-width: 1200px;
     margin: 0 auto;
-    
   }
 
   /* Skrift */

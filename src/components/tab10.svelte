@@ -11,14 +11,14 @@
         <div class="lg:col-start-1">
           <img
             class="w-full h-full object-cover"
-            src="anton.webp"
+            src="rejseleder.jpg"
             alt="Billede af din rejseleder"
           />
         </div>
         <div
           class="lg:col-start-2 lg:col-span-2 p-6 lg:p-10 m-auto max-w-[50ch]"
         >
-          <h3 class="pb-4">Anton Skou Larsen</h3>
+          <h3 class="pb-4">Kim Daugaard</h3>
           <p>
             Jeg har, siden jeg var ganske lille, haft stor lyst og trang til at
             udforske verden. Jeg har altid været interesseret i naturen; gåture
@@ -38,11 +38,29 @@
 
             <br />
             <br />
-            Højskolesmil, <br /> Anton
+            Højskolesmil, <br /> Kim D
           </p>
         </div>
       </div>
     </div>
+  </section>
+
+  <section class="flex justify-end px-4">
+    <MyButton type="linkbutton">
+      HVAD ER INKLUDERET <svg
+        class="m-auto"
+        width="18"
+        height="16"
+        viewBox="0 0 18 16"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M17.7071 8.70711C18.0976 8.31658 18.0976 7.68342 17.7071 7.29289L11.3431 0.928932C10.9526 0.538408 10.3195 0.538408 9.92893 0.928932C9.53841 1.31946 9.53841 1.95262 9.92893 2.34315L15.5858 8L9.92893 13.6569C9.53841 14.0474 9.53841 14.6805 9.92893 15.0711C10.3195 15.4616 10.9526 15.4616 11.3431 15.0711L17.7071 8.70711ZM17 7L-4.76837e-07 7V9L17 9V7Z"
+          fill="#929292"
+        />
+      </svg>
+    </MyButton>
   </section>
 </main>
 

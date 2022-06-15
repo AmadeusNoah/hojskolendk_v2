@@ -25,7 +25,7 @@
 </script>
 
 <nav class="w-screen drop-shadow-lg">
-  <div class="flex max-w-[1200px] justify-center m-auto">
+  <div class="flex max-w-[1200px] justify-center m-auto pt-3">
     <div class="h-full grid items-center  ">
       <a sveltekit:prefetch href="/">
         <img class="h-[70px]" src="hdk_logo_cannon.png" alt="logo orange" />
@@ -374,7 +374,8 @@
             </a>
             <div class="hidden group-hover:block absolute pin-r top-full w-48 ">
               <ul class="bg-white">
-                <li>
+                <li class="flex">
+                  <img src="icon_tidligereelever" alt="">
                   <a
                     href="/underconstruction"
                     class="block text-left py-3 px-3  hover:text-blue-dark text-xs"
@@ -536,7 +537,7 @@
         </li>
       </ul>
       <div class="hidden lg:grid">
-        <Button>KONTAKT</Button>
+        <Button> <a href="/underconstruction"> KONTAKT </a></Button>
       </div>
     </div>
   </div>

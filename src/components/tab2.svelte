@@ -18,7 +18,7 @@
       <hr />
     </section>
 
-    <section class="grid gap-20 lg:col-start-1 inkl">
+    <section class="grid gap-20 lg:col-start-1 inkl ">
       <div>
         <div>
           <p class="preh2">DET FÅR DU MED</p>
@@ -114,7 +114,7 @@
   </section>
   <section class="flex justify-end px-4">
     <MyButton type="linkbutton">
-      PROGRAM <svg
+      AFREJSEDATOER <svg
         class="m-auto"
         width="18"
         height="16"

@@ -23,7 +23,7 @@
     <div class="flex gap-5 overflow-x-scroll">
       <Cardfri
         image="hellikopterspring.webp"
-        title="Helikopter udspring"
+        title="Skydiving"
         addon="ADD ON"
         text="Tag på udflugt til Mahfushi et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
         Hawaii er et af verdens bedste surfstede af, så i skal så i skal selføgelig lærer at “ride the waves”.  
@@ -48,7 +48,7 @@
       />
       <Cardfri
         image="m_nightf.webp"
-        title="Night fishing trip"
+        title="Nightfishing trip"
         addon="ADD ON"
         text="Tag ud om natten og fang fisk med line, , så i skal selføgelig lærer at “ride the waves”.  
         Hawaii er et af verdens bedste surfsteder, så i.Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  

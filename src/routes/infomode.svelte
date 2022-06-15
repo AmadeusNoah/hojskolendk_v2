@@ -67,7 +67,12 @@
           <div>
             <!-- hvid cirkel -->
             <div class="cirkel m-auto grid justify-center">
-              <img class="m-auto" src="calender.png" alt="telefon ikon" />
+              <img
+                id="special_icon"
+                class=" m-auto"
+                src="icon_qmark.png"
+                alt="blog ikon"
+              />
             </div>
             <p class="tabeltxt">Få svar på dine spørgsmål</p>
           </div>
@@ -84,7 +89,7 @@
             <!-- hvid cirkel -->
             <div>
               <div class="cirkel m-auto grid justify-center">
-                <img class="m-auto" src="swag.png" alt="chat ikon" />
+                <img class="m-auto" src="icon_ophold.png" alt="chat ikon" />
               </div>
               <p class="tabeltxt">Lær mere vores enven-tyrlige ophold</p>
             </div>
@@ -174,6 +179,12 @@
     border-radius: 100px;
     margin: auto;
   }
+
+  #special_icon {
+    width: 30px;
+    height: 42px;
+  }
+
   @media screen and (min-width: 700px) {
     .footer_kontakt {
       grid-template-columns: 1fr 1fr 1fr 1fr;

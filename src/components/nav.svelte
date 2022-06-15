@@ -66,12 +66,21 @@
                 <ul class="accordion__body p-4" id="panel1">
                   <li class="">
                     <a href="/singlepage">
-                      <b class="lg:hidden px-2">></b> Bali, Lombok & Gili Islands</a
+                      <img
+                        class="ikoner mr-3"
+                        src="destination.png"
+                        alt="destinations nål"
+                      />
+                      Bali, Lombok & Gili Islands</a
                     >
                   </li>
                   <li class="">
                     <a href="/singlepage">
-                      <b class="lg:hidden px-2">></b> New York & Caribien</a
+                      <img
+                        class="ikoner mr-3"
+                        src="destination.png"
+                        alt="destinations nål"
+                      /> New York & Caribien</a
                     >
                   </li>
                 </ul>
@@ -89,12 +98,20 @@
                 <ul class="accordion__body p-4" id="panel1">
                   <li class="">
                     <a href="/singlepage">
-                      <b class="lg:hidden px-2">></b> Maldiverne, Sri Lanka & Bali</a
+                      <img
+                        class="ikoner mr-3"
+                        src="destination.png"
+                        alt="destinations nål"
+                      />Maldiverne, Sri Lanka & Bali</a
                     >
                   </li>
                   <li class="">
                     <a href="/singlepage">
-                      <b class="lg:hidden px-2">></b> Hawaii, Australien & Japan</a
+                      <img
+                        class="ikoner mr-3"
+                        src="destination.png"
+                        alt="destinations nål"
+                      /> Hawaii, Australien & Japan</a
                     >
                   </li>
                 </ul>
@@ -112,32 +129,44 @@
                 <ul class="accordion__body p-4" id="panel1">
                   <li class="">
                     <a href="/singlepage">
-                      <b class="lg:hidden px-2">></b> Caribien, Hawaii & Mexico</a
+                      <img
+                        class="ikoner mr-3"
+                        src="destination.png"
+                        alt="destinations nål"
+                      /> Caribien, Hawaii & Mexico</a
                     >
                   </li>
                   <li class="">
                     <a href="/singlepage">
-                      <b class="lg:hidden px-2">></b> Indien, Nepal & Thailand</a
+                      <img
+                        class="ikoner mr-3"
+                        src="destination.png"
+                        alt="destinations nål"
+                      /> Indien, Nepal & Thailand</a
                     >
                   </li>
                   <li class="">
                     <a href="/singlepage">
-                      <b class="lg:hidden px-2">></b> Costa Rica, Mexico & Guatemala</a
+                      <img
+                        class="ikoner mr-3"
+                        src="destination.png"
+                        alt="destinations nål"
+                      /> Costa Rica, Mexico & Guatemala</a
                     >
                   </li>
                 </ul>
               </div>
             </div>
 
-            <!--  Panel 5  -->
-            <div class="hidden lg:block">
-              <input type="checkbox" name="panel" id="panel-5" class="hidden" />
-              <p
+            <!-- Panel 5  -->
+            <div class="">
+              <input type="checkbox" name="panel" id="panel-4" class="hidden" />
+              <a
+                href="/infomode"
                 for="panel-5"
-                class="relative block p-4 shadow border-b border-grey"
+                class="relative block p-4 shadow border-b border-grey font-semibold uppercase"
+                >Infomøde</a
               >
-                <a href="/infomode">Infomøder</a>
-              </p>
             </div>
 
             <!--  Panel 6  -->
@@ -148,37 +177,58 @@
                 class="relative block p-4 shadow border-b border-grey font-semibold uppercase"
                 >Om os</label
               >
-              <div class="accordion__content overflow-hidde">
+              <div class="accordion__content overflow-hidden bg-grey-lighter">
                 <ul class="accordion__body p-4 bg-white" id="panel1">
                   <li class="">
                     <a href="/underconstruction">
-                      <b class="lg:hidden px-2">></b>Mød teamet</a
+                      <img
+                        class="ikoner mr-3"
+                        src="icon_goodvibes.png"
+                        alt=""
+                      />Mød teamet</a
                     >
                   </li>
                   <li class="">
                     <a href="/underconstruction">
-                      <b class="lg:hidden px-2">></b>Vores Værdier</a
+                      <img
+                        class="ikoner mr-3"
+                        src="icon_earth.png"
+                        alt=""
+                      />Vores Værdier</a
                     >
                   </li>
                   <li class="">
                     <a href="/underconstruction">
-                      <b class="lg:hidden px-2">></b>Bæredygtighed</a
+                      <img class="ikoner mr-3" src="icon_sustain.png" alt="" />
+                      Bæredygtighed</a
                     >
                   </li>
                   <li class="">
                     <a href="/underconstruction">
-                      <b class="lg:hidden px-2">></b>FAQ</a
+                      <img
+                        class="ikoner mr-3"
+                        src="icon_qmark.png"
+                        alt=""
+                      />FAQ</a
                     >
                   </li>
                   <li class="">
                     <a href="/underconstruction">
-                      <b class="lg:hidden px-2">></b>Blog</a
+                      <img
+                        class="ikoner mr-3 "
+                        src="icon_ophold.png"
+                        alt=""
+                      />Blog</a
                     >
                   </li>
 
                   <li class="">
                     <a href="/underconstruction">
-                      <b class="lg:hidden px-2">></b>Det siger vores elever</a
+                      <img
+                        class="ikoner mr-3 "
+                        src="icon_tidligereelever.png"
+                        alt=""
+                      />Det siger vores elever</a
                     >
                   </li>
                 </ul>
@@ -196,17 +246,26 @@
                 <ul class="accordion__body p-4" id="panel1">
                   <li class="">
                     <a href="/underconstruction">
-                      <b class="lg:hidden px-2">></b> Kommende Events</a
-                    >
-                  </li>
-                  <li class="">
-                    <a href="/underconstruction"
-                      ><b class="lg:hidden px-2">></b> Elevambassadører</a
+                      <img class="ikoner mr-3 " src="calender.png" alt="" /> Kommende
+                      Events</a
                     >
                   </li>
                   <li class="">
                     <a href="/underconstruction">
-                      <b class="lg:hidden px-2">></b> REUNION</a
+                      <img
+                        class="ikoner mr-3 "
+                        src="icon_tidligereelever.png"
+                        alt=""
+                      />Elevambassadører</a
+                    >
+                  </li>
+                  <li class="">
+                    <a href="/underconstruction">
+                      <img
+                        class="ikoner mr-3 "
+                        src="icon_reunion.png"
+                        alt=""
+                      />REUNION 2022</a
                     >
                   </li>
                 </ul>
@@ -375,7 +434,11 @@
             <div class="hidden group-hover:block absolute pin-r top-full w-48">
               <ul class="bg-white pl-4">
                 <li class="flex  ">
-                  <img class="h-4 w-auto self-center " src="icon_goodvibes.png" alt="">
+                  <img
+                    class="h-4 w-auto self-center "
+                    src="icon_goodvibes.png"
+                    alt=""
+                  />
                   <a
                     href="/underconstruction"
                     class="block text-left py-3 px-3  hover:text-blue-dark text-xs"
@@ -384,7 +447,11 @@
                   </a>
                 </li>
                 <li class="flex">
-                  <img class="h-4 w-auto self-center " src="icon_earth.png" alt="">
+                  <img
+                    class="h-4 w-auto self-center "
+                    src="icon_earth.png"
+                    alt=""
+                  />
                   <a
                     href="/underconstruction"
                     class="block text-left py-3 px-3 hover:text-blue-dark text-xs"
@@ -393,7 +460,11 @@
                   </a>
                 </li>
                 <li class="flex">
-                  <img class="h-4 w-auto self-center " src="icon_sustain.png" alt="">
+                  <img
+                    class="h-4 w-auto self-center "
+                    src="icon_sustain.png"
+                    alt=""
+                  />
                   <a
                     href="/underconstruction"
                     class="block text-left py-3 px-3 hover:text-blue-dark text-xs"
@@ -402,7 +473,11 @@
                   </a>
                 </li>
                 <li class="flex">
-                  <img class="h-5 w-auto self-center pr-2 " src="icon_qmark.png" alt="">
+                  <img
+                    class="h-5 w-auto self-center pr-2 "
+                    src="icon_qmark.png"
+                    alt=""
+                  />
                   <a
                     href="/underconstruction"
                     class="block text-left py-3 px-3 hover:text-blue-dark text-xs"
@@ -417,12 +492,20 @@
                   
                   hover:text-blue-dark text-xs"
                   >
-                  <img class="h-4 w-auto self-center pr-4 " src="icon_ophold.png" alt="">
-                   Blog  
+                    <img
+                      class="h-4 w-auto self-center pr-4 "
+                      src="icon_ophold.png"
+                      alt=""
+                    />
+                    Blog
                   </a>
                 </li>
                 <li class="flex">
-                  <img class="h-4 w-auto self-center " src="icon_tidligereelever.png" alt="">
+                  <img
+                    class="h-4 w-auto self-center "
+                    src="icon_tidligereelever.png"
+                    alt=""
+                  />
                   <a
                     href="/underconstruction"
                     class="block text-left py-3 px-3  hover:text-blue-dark text-xs"
@@ -512,7 +595,11 @@
             >
               <ul class="bg-white px-4">
                 <li class="flex">
-                  <img class="h-4 w-auto self-center " src="calender.png" alt="">
+                  <img
+                    class="h-4 w-auto self-center "
+                    src="calender.png"
+                    alt=""
+                  />
                   <a
                     href="/underconstruction"
                     class="block text-left py-3 px-3  hover:text-blue-dark text-xs"
@@ -521,7 +608,11 @@
                   </a>
                 </li>
                 <li class="flex">
-                  <img class="h-4 w-auto self-center " src="icon_tidligereelever.png" alt="">
+                  <img
+                    class="h-4 w-auto self-center "
+                    src="icon_tidligereelever.png"
+                    alt=""
+                  />
                   <a
                     href="/underconstruction"
                     class="block text-left py-3 px-3  hover:text-blue-dark text-xs"
@@ -530,7 +621,11 @@
                   </a>
                 </li>
                 <li class="flex">
-                  <img class="h-4 w-auto self-center " src="icon_reunion.png" alt="">
+                  <img
+                    class="h-4 w-auto self-center "
+                    src="icon_reunion.png"
+                    alt=""
+                  />
                   <a
                     href="/underconstruction"
                     class="block text-left py-3 px-3 
@@ -545,7 +640,7 @@
         </li>
       </ul>
       <div class="hidden lg:grid">
-        <Button> <a href="/underconstruction"> KONTAKT </a></Button>
+        <Button><a href="/underconstruction"> KONTAKT </a></Button>
       </div>
     </div>
   </div>
@@ -665,6 +760,7 @@
   .navbar-list li {
     list-style-type: none;
     position: relative;
+    cursor: pointer;
   }
 
   .navbar-list li:before {
@@ -713,6 +809,10 @@
 
   #topnav_titel {
     font-size: var(--font_h5);
+  }
+
+  label {
+    cursor: pointer;
   }
 
   li a:hover {

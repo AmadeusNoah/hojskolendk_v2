@@ -372,10 +372,10 @@
                 /></svg
               >
             </a>
-            <div class="hidden group-hover:block absolute pin-r top-full w-48 ">
-              <ul class="bg-white">
-                <li class="flex">
-                  <img src="icon_tidligereelever" alt="">
+            <div class="hidden group-hover:block absolute pin-r top-full w-48">
+              <ul class="bg-white pl-4">
+                <li class="flex  ">
+                  <img class="h-4 w-auto self-center " src="icon_goodvibes.png" alt="">
                   <a
                     href="/underconstruction"
                     class="block text-left py-3 px-3  hover:text-blue-dark text-xs"
@@ -383,7 +383,8 @@
                     Mød teamet
                   </a>
                 </li>
-                <li>
+                <li class="flex">
+                  <img class="h-4 w-auto self-center " src="icon_earth.png" alt="">
                   <a
                     href="/underconstruction"
                     class="block text-left py-3 px-3 hover:text-blue-dark text-xs"
@@ -391,7 +392,8 @@
                     Vores værdier
                   </a>
                 </li>
-                <li>
+                <li class="flex">
+                  <img class="h-4 w-auto self-center " src="icon_sustain.png" alt="">
                   <a
                     href="/underconstruction"
                     class="block text-left py-3 px-3 hover:text-blue-dark text-xs"
@@ -399,7 +401,8 @@
                     Bæredygtighed
                   </a>
                 </li>
-                <li>
+                <li class="flex">
+                  <img class="h-5 w-auto self-center pr-2 " src="icon_qmark.png" alt="">
                   <a
                     href="/underconstruction"
                     class="block text-left py-3 px-3 hover:text-blue-dark text-xs"
@@ -407,17 +410,19 @@
                     FAQ
                   </a>
                 </li>
-                <li>
+                <li class="flex">
                   <a
                     href="/underconstruction"
-                    class="block text-left py-3 px-3 
+                    class="block text-left flex 
                   
                   hover:text-blue-dark text-xs"
                   >
-                    Blog
+                  <img class="h-4 w-auto self-center pr-4 " src="icon_ophold.png" alt="">
+                   Blog  
                   </a>
                 </li>
-                <li>
+                <li class="flex">
+                  <img class="h-4 w-auto self-center " src="icon_tidligereelever.png" alt="">
                   <a
                     href="/underconstruction"
                     class="block text-left py-3 px-3  hover:text-blue-dark text-xs"
@@ -505,8 +510,9 @@
               class="hidden group-hover:block absolute pin-r top-full w-48 
             "
             >
-              <ul class="bg-white">
-                <li>
+              <ul class="bg-white px-4">
+                <li class="flex">
+                  <img class="h-4 w-auto self-center " src="calender.png" alt="">
                   <a
                     href="/underconstruction"
                     class="block text-left py-3 px-3  hover:text-blue-dark text-xs"
@@ -514,7 +520,8 @@
                     Kommende Events
                   </a>
                 </li>
-                <li>
+                <li class="flex">
+                  <img class="h-4 w-auto self-center " src="icon_tidligereelever.png" alt="">
                   <a
                     href="/underconstruction"
                     class="block text-left py-3 px-3  hover:text-blue-dark text-xs"
@@ -522,7 +529,8 @@
                     Elev Ambassadøre
                   </a>
                 </li>
-                <li>
+                <li class="flex">
+                  <img class="h-4 w-auto self-center " src="icon_reunion.png" alt="">
                   <a
                     href="/underconstruction"
                     class="block text-left py-3 px-3 

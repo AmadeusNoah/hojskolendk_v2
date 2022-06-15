@@ -1,44 +1,102 @@
 <script>
-  export let dato;
-  export let title;
-  export let subtitle;
-  export let tid;
-  export let adresse;
+  import MyButton from "../components/button.svelte";
 </script>
 
-<section
-  class="ophold max-w-full xl:max-h-[300px] block sm:grid sm:grid-cols-2 items-center sm:pb-0 gap-6 xl:flex"
->
-  <div class="h-full grids-start-1 xl:max-w-[500px] ">
-    <p>{dato}</p>
-  </div>
-
-  <div class="p-4 md:grid gap-4 xl:gap-7 grids-start-2">
-    <div class="">
-      <h3>{title}</h3>
-      <p>{subtitle}</p>
-    </div>
-    <div class="xl:flex xl:gap-7">
-      <div class="flex mt-5 lg:mt-0 gap-4 items-center">
-        <img class="w-8 h-8 " src="calender.png" alt="kalender ikon" />
+<section class="ophold max-w-fit block  sm:pb-0 gap-6 shadow-sm">
+  <div class="streg h-0.5 w-full " />
+  <h3 class="px-8 pt-6 pb-4 mb-4">Tilmeld dig infomødet</h3>
+  <div class="sm:grid sm:grid-cols-2">
+    <form class=" px-8 pb-8 mb-4">
+      <div class="mb-4">
+        <label class="block  text-sm font-bold mb-2" for="Navn"> Navn </label>
+        <input
+          class=" appearance-none w-full py-2 px-3  leading-tight focus:shadow-outline"
+          id="name"
+          type="text"
+          placeholder="Username"
+        />
+      </div>
+      <div class="mb-4">
+        <label class="block  text-sm font-bold mb-2" for="Navn">
+          Efternavn
+        </label>
+        <input
+          class=" appearance-none w-full py-2 px-3  leading-tight focus:shadow-outline"
+          id="lastname"
+          type="text"
+          placeholder="Efternavn"
+        />
+      </div>
+      <div class="mb-4">
+        <label class="block  text-sm font-bold mb-2" for="Navn"> Mobil </label>
+        <input
+          class=" appearance-none w-full py-2 px-3  leading-tight focus:shadow-outline"
+          id="mobil"
+          type="text"
+          placeholder="Mobil"
+        />
+      </div>
+      <div class="mb-6">
+        <label class="block  text-sm font-bold mb-2" for="E-mail">
+          E-mail
+        </label>
+        <input
+          class=" appearance-none w-full py-2 px-3 mb-3 leading-tight focus:shadow-outline"
+          id="email"
+          type="text"
+          placeholder="E-mail"
+        />
+        <p class="pt-6 pb-2 text-xs italic">
+          *Disse felter skal udfyldes / vælges
+        </p>
         <div>
-          <p class="">Tid:</p>
-          <p class="tabeltxt">{tid}</p>
+          <div class="form-check">
+            <input
+              class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-slate-600 checked:border-slate-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
+              type="radio"
+              name="flexRadioDefault"
+              id="flexRadioDefault1"
+            />
+            <label
+              class="form-check-label inline-block text-sm italic"
+              for="flexRadioDefault1"
+            >
+              Ja, i må gerne kontakte mig med spænende nyheder.
+            </label>
+          </div>
+          <div class="form-check flex">
+            <input
+              class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-slate-600 checked:border-slate-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
+              type="radio"
+              name="flexRadioDefault"
+              id="flexRadioDefault2"
+            />
+            <label
+              class="form-check-label inline-block text-sm italic "
+              for="flexRadioDefault2"
+            >
+              Jeg har læst jeres privatlivspolitik og generelle bestemmelser og
+              er indforstået med begge.*
+            </label>
+          </div>
         </div>
-
-        <div class="h-10 bg-slate-400 w-0.5 hidden xl:block" />
       </div>
-
-      <div class="flex mt-5 lg:mt-0 gap-4  items-center">
-        <img class="w-8 h-8" src="price.png" alt="pris ikon" />
-        <div class="w-22">
-          <p class="">Adresse:</p>
-          <p class="tabeltxt ">{adresse}</p>
-        </div>
+      <div class="flex items-center justify-between">
+        <MyButton>TILMELD DIG</MyButton>
       </div>
-      <div class="h-10 bg-black w-0.5 hidden" />
+    </form>
+    <div class="px-8 pb-8 mb-4">
+      <h4 class="">Informationsmøde om højskoleophold i udlandet</h4>
+      <p>Vi præsenterer vores eventyrlige højskole og fortæller en masse om:</p>
+      <ul class="pt-4">
+        <li>Hvem er HÖJSKOLENDK</li>
+        <li>Vores eventyrlige højskoleophold</li>
+        <li>Adventure, aktiviteter og alle de fede oplevelser der venter</li>
+        <li>En ”almindelig” dag på højskole i udlandet</li>
+        <li>Den levende og aktive måde vi underviser på</li>
+        <li>Økonomi, lommepenge, pakkeliste, friuger, afrejsemødet, etc.</li>
+      </ul>
     </div>
-    <div class="flex sm:justify-start pt-4" />
   </div>
 </section>
 
@@ -49,23 +107,19 @@
     margin-bottom: 2rem;
   }
 
-  /* Show the dropdown menu */
-  .show {
-    display: block;
+  li {
+    margin-bottom: 0.5rem;
+    color: var(--txtcolor-600);
   }
-  /* 
-  .right svg {
-    height: 25px;
-    width: 25px;
-  } */
 
-  /* .right {
-    background-color: white;
-    border-radius: 50px;
-    height: 60px;
-    width: 60px;
-    z-index: 10;
-  } */
+  ul li:before {
+    content: "✓";
+    margin-right: 0.5rem;
+  }
+
+  .streg {
+    background-color: var(--txtcolor);
+  }
 
   @media screen and (max-width: 400px) {
     section {

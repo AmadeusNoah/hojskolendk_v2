@@ -55,7 +55,7 @@
     <div class="flex sm:justify-start pt-4" />
   </div>
   <button class="ml-4" on:click={handleClick}
-    >{!open ? "TILMELD DIG INFOMØDE" : "LUK"}</button
+    >{!open ? "TILMELD NU" : "LUK"}</button
   >
 
   {#if open}

@@ -1,7 +1,5 @@
 <script>
   import MyButton from "../components/button.svelte";
-  export let vej;
-  export let by;
 </script>
 
 <section class="ophold max-w-fit block  sm:pb-0 gap-6">

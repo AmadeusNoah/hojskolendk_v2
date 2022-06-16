@@ -91,7 +91,7 @@
               <div class="cirkel m-auto grid justify-center">
                 <img class="m-auto" src="icon_ophold.png" alt="chat ikon" />
               </div>
-              <p class="tabeltxt">Lær mere vores enven-tyrlige ophold</p>
+              <p class="tabeltxt">Lær mere vores enventyrlige ophold</p>
             </div>
           </div>
           <div>
@@ -100,7 +100,7 @@
               <div class="cirkel m-auto grid justify-center">
                 <img class="m-auto" src="faelleskab.png" alt="brev ikon" />
               </div>
-              <p class="tabeltxt">Mød tidligere elver</p>
+              <p class="tabeltxt">Mød vores skønne tidligere elver</p>
             </div>
           </div>
         </div>

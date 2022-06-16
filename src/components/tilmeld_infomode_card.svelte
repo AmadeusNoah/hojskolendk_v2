@@ -80,8 +80,7 @@
               class="form-check-label inline-block text-sm italic "
               for="flexRadioDefault2"
             >
-              Jeg har læst jeres privatlivspolitik og generelle bestemmelser og
-              er indforstået med begge.*
+              Jeg har læst jeres privatlivspolitik og generelle bestemmelser.*
             </label>
           </div>
         </div>
@@ -123,6 +122,11 @@
 
   .streg {
     background-color: var(--txtcolor);
+  }
+
+  #flexRadioDefault2 {
+    width: 16px;
+    height: 16px;
   }
 
   @media screen and (max-width: 400px) {

@@ -1,11 +1,18 @@
 <script>
   import MyButton from "../components/button.svelte";
+  export let vej;
+  export let by;
 </script>
 
 <section class="ophold max-w-fit block  sm:pb-0 gap-6">
   <div class="streg h-0.5 w-full " />
-  <h3 class="px-8 pt-6 pb-4 mb-4">Tilmeld dig infomødet</h3>
-  <div class="sm:grid sm:grid-cols-2">
+  <h3 class="px-8 pt-6 ">Tilmeld dig infomødet</h3>
+  <div class="px-8 py-3">
+    <p class="tabeltxt font-bold">Adresse:</p>
+    <p class="tabeltxt">Købmagergade 52,</p>
+    <p class="tabeltxt">1150 København K</p>
+  </div>
+  <div class="sm:grid sm:grid-cols-2 pt-8">
     <form class=" px-8 pb-8 mb-4">
       <div class="mb-4">
         <label class="block  text-sm font-bold mb-2" for="Navn"> Navn </label>

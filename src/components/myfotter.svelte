@@ -14,7 +14,7 @@
         <!-- hvid cirkel -->
         <div class="cirkel m-auto grid justify-center items-center">
           <a href="tel:7027 9007">
-            <img class="m-auto" src="call.png" alt="telefon ikon" />
+            <img class="m-auto" src="icon_call.png" alt="telefon ikon" />
           </a>
         </div>
         <p>Ring til os</p>
@@ -24,7 +24,7 @@
         <div>
           <div class="cirkel m-auto grid justify-center items-center">
             <a href="mailto:info@hojskolendk.dk">
-              <img class="m-auto" src="brev.png" alt="brev ikon" />
+              <img class="m-auto" src="icon_mail.png" alt="brev ikon" />
             </a>
           </div>
           <p>Skriv til os</p>
@@ -35,7 +35,7 @@
         <div>
           <div class="cirkel m-auto grid justify-center items-center">
             <a href="https://www.facebook.com/hojskolendk">
-              <img class="m-auto" src="messenger.png" alt="chat ikon" />
+              <img class="m-auto" src="icon_chat.png" alt="chat ikon" />
             </a>
           </div>
           <p>Chat med os</p>
@@ -46,7 +46,7 @@
         <div>
           <div class="cirkel m-auto grid justify-center items-center">
             <a href="/infomode">
-              <img class="m-auto" src="people.png" alt="brev ikon" />
+              <img class="m-auto" src="icon_meeting.png" alt="brev ikon" />
             </a>
           </div>
           <p>Infoaften</p>

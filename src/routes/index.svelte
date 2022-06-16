@@ -213,7 +213,7 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
 
         <img
           class=""
-          src="baeredygtighed.png"
+          src="baeredygtighed.webp"
           alt="Ung trekker i bjergene"
         />
     </div>

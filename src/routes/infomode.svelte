@@ -37,7 +37,7 @@
   <section class="maxwidthwrapper md:grid grid-cols-2 md:gap-10 lg:gap-20">
     <img
       class="col-start-2 row-start-1"
-      src="solnedgang.webp"
+      src="solnedgang-2.webp"
       alt="instagram - Hygge i golden hour"
     />
     <div class="col-start-1 row-start-1 mt-10">
@@ -67,7 +67,12 @@
           <div>
             <!-- hvid cirkel -->
             <div class="cirkel m-auto grid justify-center">
-              <img class="m-auto" src="call.png" alt="telefon ikon" />
+              <img
+                id="special_icon"
+                class=" m-auto"
+                src="icon_qmark.png"
+                alt="blog ikon"
+              />
             </div>
             <p class="tabeltxt">Få svar på dine spørgsmål</p>
           </div>
@@ -75,7 +80,7 @@
             <!-- hvid cirkel -->
             <div>
               <div class="cirkel m-auto grid justify-center">
-                <img class="m-auto" src="hdk_logo_cannon.png" alt="brev ikon" />
+                <img class="m-auto" src="swag.png" alt="brev ikon" />
               </div>
               <p class="tabeltxt">Få sat ansigt på HÖJSKOLENDK</p>
             </div>
@@ -84,7 +89,7 @@
             <!-- hvid cirkel -->
             <div>
               <div class="cirkel m-auto grid justify-center">
-                <img class="m-auto" src="swag.png" alt="chat ikon" />
+                <img class="m-auto" src="icon_ophold.png" alt="chat ikon" />
               </div>
               <p class="tabeltxt">Lær mere vores enven-tyrlige ophold</p>
             </div>
@@ -174,6 +179,12 @@
     border-radius: 100px;
     margin: auto;
   }
+
+  #special_icon {
+    width: 30px;
+    height: 42px;
+  }
+
   @media screen and (min-width: 700px) {
     .footer_kontakt {
       grid-template-columns: 1fr 1fr 1fr 1fr;

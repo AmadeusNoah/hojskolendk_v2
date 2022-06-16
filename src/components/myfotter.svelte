@@ -185,7 +185,7 @@
     </svg>
   </div>
   <div id="footerslut">
-    <p class="text-black">// HÔJSKOLENDK //</p>
+    <p class="text-black m-auto">// HÔJSKOLENDK //</p>
   </div>
 </footer>
 

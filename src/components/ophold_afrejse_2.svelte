@@ -9,9 +9,11 @@
   class=" relative background_color_boks p-4 md:m-0 lg:flex lg:justify-around lg:p-4 lg:items-center md:p-0"
 >
 
-<div class="absolute top-0 left-0 h-full w-8 bg-red-600">
-  <p class="text "> Udsolgt</p>
-</div>
+<img
+    class="absolute lg:left-0 lg:top-11 lg:w-32 lg:h-32 z-10 banner"
+    src="bfaapladser.png"
+    alt="Få pladser"
+  />
   <!-- <img
     class="absolute lg:left-0 lg:top-11 lg:w-32 lg:h-32 z-10 banner"
     src="budsolgt.png"

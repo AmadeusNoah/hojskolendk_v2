@@ -24,7 +24,7 @@
   });
 </script>
 
-<nav class="w-screen drop-shadow-lg">
+<nav class="w-screen drop-shadow-lg px-4">
   <div class="flex max-w-[1200px] justify-center m-auto pt-3">
     <div class="h-full grid items-center  ">
       <a sveltekit:prefetch href="/">
@@ -441,7 +441,7 @@
                   />
                   <a
                     href="/underconstruction"
-                    class="block text-left py-3 px-3  hover:text-blue-dark text-xs"
+                    class="block text-left py-3 px-3  hover:text-blue-dark"
                   >
                     Mød teamet
                   </a>
@@ -454,7 +454,7 @@
                   />
                   <a
                     href="/underconstruction"
-                    class="block text-left py-3 px-3 hover:text-blue-dark text-xs"
+                    class="block text-left py-3 px-3 hover:text-blue-dark"
                   >
                     Vores værdier
                   </a>
@@ -467,7 +467,7 @@
                   />
                   <a
                     href="/underconstruction"
-                    class="block text-left py-3 px-3 hover:text-blue-dark text-xs"
+                    class="block text-left py-3 px-3 hover:text-blue-dark"
                   >
                     Bæredygtighed
                   </a>
@@ -480,7 +480,7 @@
                   />
                   <a
                     href="/underconstruction"
-                    class="block text-left py-3 px-3 hover:text-blue-dark text-xs"
+                    class="block text-left py-3 px-3 hover:text-blue-dark"
                   >
                     FAQ
                   </a>
@@ -490,10 +490,10 @@
                     href="/underconstruction"
                     class="block text-left flex 
                   
-                  hover:text-blue-dark text-xs"
+                  hover:text-blue-dark"
                   >
                     <img
-                      class="h-4 w-auto self-center pr-4 "
+                      class="h-4 w-auto self-center pr-4"
                       src="icon_ophold.png"
                       alt=""
                     />
@@ -508,7 +508,7 @@
                   />
                   <a
                     href="/underconstruction"
-                    class="block text-left py-3 px-3  hover:text-blue-dark text-xs"
+                    class="block text-left py-3 px-3  hover:text-blue-dark"
                   >
                     Det siger vores elever
                   </a>

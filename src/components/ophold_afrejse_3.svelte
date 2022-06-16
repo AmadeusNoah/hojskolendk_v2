@@ -9,8 +9,8 @@
   class=" relative background_color_boks p-4 md:m-0 lg:flex lg:justify-around lg:p-4 lg:items-center md:p-0"
 >
   <img
-    class="absolute lg:left-0 lg:top-11 lg:w-32 lg:h-32 z-10 banner"
-    src="bfaapladser.png"
+    class="absolute lg:left-0 lg:top-0 lg:w-32 lg:h-32 z-10 banner"
+    src="banner_faapladser.png"
     alt="Få pladser"
   />
 

@@ -10,8 +10,8 @@
 >
 
 <img
-    class="absolute lg:left-0 lg:top-11 lg:w-32 lg:h-32 z-10 banner"
-    src="bfaapladser.png"
+    class="absolute lg:left-0 lg:top-0 lg:w-32 lg:h-32 z-10 banner"
+    src="banner_udsolgt.png"
     alt="Få pladser"
   />
   <!-- <img

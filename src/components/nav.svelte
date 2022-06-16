@@ -413,7 +413,7 @@
         </li>
 
         <li class="hidden lg:block bg-white">
-          <div class="group relative h-full">
+          <div class="group relative h-full w-fit">
             <a
               href="/underconstruction"
               class=" flex items-center h-full bg-grey-darkest px-4"
@@ -531,23 +531,23 @@
                       width="59"
                       height="44.6425"
                       rx="10.5"
-                      stroke="orange"
+                      stroke="#ff5e04"
                     />
                     <path
                       d="M95 35.0005V11.6721L112 23.3363L95 35.0005Z"
-                      stroke="orange"
+                      stroke="#ff5e04"
                     />
                     <path
                       d="M1 19.2793H11C12.0003 16.2364 15.9009 10.1508 23.5009 10.1508C31.1009 10.1508 34.6676 16.2364 35.5009 19.2793H45.0009C45.0009 16.0674 45.0018 9.23792 45.0009 5.58652C45 2.03655 40.619 0.515137 38 0.515137H6.5C3.5 0.515137 0.999095 3.05083 1 5.07938V19.2793Z"
-                      stroke="orange"
+                      stroke="#ff5e04"
                     />
                     <path
                       d="M1 23.3363H10.1466C10.1466 31.4505 15.9002 36.5219 23.5 36.5219C31.0998 36.5219 36 29.422 36 23.3363H44.9996C44.9996 27.1558 45.0005 35.2774 44.9996 39.6196C44.9987 43.8411 40.6178 45.6504 37.9989 45.6504H6.49984C3.49993 45.6504 0.999095 42.635 1 40.2226V23.3363Z"
-                      stroke="orange"
+                      stroke="#ff5e04"
                     />
                     <path
                       d="M32.5 23.3364C32.5 28.6686 28.24 32.9791 23 32.9791C17.76 32.9791 13.5 28.6686 13.5 23.3364C13.5 18.0041 17.76 13.6936 23 13.6936C28.24 13.6936 32.5 18.0041 32.5 23.3364Z"
-                      stroke="orange"
+                      stroke="#ff5e04"
                     />
                     <rect
                       x="34.5"
@@ -555,15 +555,15 @@
                       width="7"
                       height="7.11421"
                       rx="0.5"
-                      stroke="orange"
+                      stroke="#ff5e04"
                     />
                     <path
                       d="M200.543 23.3364C200.543 35.681 190.89 45.6576 179.021 45.6576C167.152 45.6576 157.5 35.681 157.5 23.3364C157.5 10.9917 167.152 1.01514 179.021 1.01514C190.89 1.01514 200.543 10.9917 200.543 23.3364Z"
-                      stroke="orange"
+                      stroke="#ff5e04"
                     />
                     <path
                       d="M182.372 45.1865V29.6486H187.16L188.596 22.8508H182.372C182.372 21.3941 182.372 18.3837 182.372 17.9952C182.372 17.5097 182.851 16.053 184.287 15.5674C185.436 15.179 187.638 15.4056 188.596 15.5674V9.74072C186.521 9.74072 182.181 9.74072 181.415 9.74072C179.979 9.74072 178.356 10.4785 177.106 12.1685C175.67 14.1107 175.67 16.053 175.67 17.0241V22.8508H170.404V29.6486H175.67V45.1865"
-                      stroke="orange"
+                      stroke="#ff5e04"
                     />
                   </svg>
                 </div>
@@ -572,10 +572,10 @@
           </div>
         </li>
         <li class="hidden lg:block">
-          <div class="group relative h-full">
+          <div class="group relative h-full w-48">
             <a
               href="/underconstruction"
-              class=" flex items-center h-full bg-grey-darkest px-4"
+              class="flex items-center h-full bg-grey-darkest px-4"
             >
               Elevforening
               <svg
@@ -604,7 +604,7 @@
                     href="/underconstruction"
                     class="block text-left py-3 px-3  hover:text-blue-dark"
                   >
-                    Kommende Events
+                    Kommende events
                   </a>
                 </li>
                 <li class="flex">
@@ -631,7 +631,7 @@
                     class="block text-left py-3 px-3 
                    hover:text-blue-dark"
                   >
-                    REUNION 2022
+                    Reunion 2022
                   </a>
                 </li>
               </ul>

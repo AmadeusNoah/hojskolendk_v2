@@ -158,13 +158,13 @@
       <p class="text-white">#hojskolendk</p>
       <div class="footer_ikons">
         <a href="https://www.facebook.com/hojskolendk/"
-          ><img src="facebook.png" alt="Facebook Link" /></a
+          ><img src="icon_fb.png" alt="Facebook Link" /></a
         >
         <a href="https://www.instagram.com/hojskolendk/?hl=da"
-          ><img src="instagram.png" alt="Instagram Link" /></a
+          ><img src="icon_insta.png" alt="Instagram Link" /></a
         >
         <a href="https://www.youtube.com/c/HojskolendkDk"
-          ><img src="youtube.png" alt="Youtube Link" /></a
+          ><img src="icon_youtube.png" alt="Youtube Link" /></a
         >
       </div>
     </div>

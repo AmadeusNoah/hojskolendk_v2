@@ -9,10 +9,14 @@
   class=" relative background_color_boks p-4 md:m-0 lg:flex lg:justify-around lg:p-4 lg:items-center md:p-0"
 >
   <img
-    class="absolute lg:left-0 lg:top-0 z-10 banner"
+    class="absolute top-0 lef-0 z-10 banner hidden lg:block md:border-y-black"
     src="banner_faapladser.png"
     alt="Få pladser"
   />
+
+  <div class="bg-[#ff5e04] h-7 w-full absolute top-0 left-0 lg:hidden">
+    <p class="text-center text-white">Få pladser</p>
+  </div>
 
   <div class="hidden lg:grid lg:text-center lg:justify-items-center relative">
     <img class="w-12 h-12 md:block" src="calender.png" alt="ikon af kalender" />
@@ -62,7 +66,7 @@
   }
 
   .banner {
-    height: 75%;
+    height: 60%;
     width: auto;
     left: 0;
     bottom: 0;

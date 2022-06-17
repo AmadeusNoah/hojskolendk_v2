@@ -10,10 +10,15 @@
 >
 
 <img
-    class="absolute lg:left-0 lg:top-0 z-10 banner"
+    class="absolute left-0 top-0 z-10 banner hidden lg:block"
     src="banner_udsolgt.png"
     alt="Få pladser"
   />
+
+  <div class="bg-[#545454] h-7 w-full absolute top-0 left-0 lg:hidden ">
+    <p class="text-center text-white">Udsolgt</p>
+  </div>
+
   <!-- <img
     class="absolute lg:left-0 lg:top-11 lg:w-32 lg:h-32 z-10 banner"
     src="budsolgt.png"
@@ -69,7 +74,7 @@
 
 
   .banner {
-    height: 75%;
+    height: 60%;
     width: auto;
     left: 0;
     bottom: 0;

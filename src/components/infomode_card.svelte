@@ -55,7 +55,7 @@
       <div class="h-10 bg-black w-0.5 hidden" />
     </div>
     <div class="flex sm:justify-start pt-4">
-      <MyButton type="primary">Tilmeld infomøde</MyButton>
+      <MyButton type="primary">Tilmeld infoaften</MyButton>
     </div>
   </div>
 </section>

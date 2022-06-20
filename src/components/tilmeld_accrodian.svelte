@@ -62,7 +62,7 @@
     <div class="details custom_column" transition:slide>
       <InfomodeCard
         image="stud_kbh.webp"
-        title="Infomøde København"
+        title="Infoaften København"
         subtitle="For dig der drømmer om dit livs eventyr"
         dato="06 Maj 22"
         tid="Kl. 17:00 - 19:00"

@@ -42,7 +42,7 @@
     />
     <div class="col-start-1 row-start-1 mt-10">
       <p class="preh2">GRATIS & UFORPLIGTENDE</p>
-      <h2>MØD OS OG BLIV KLOGERE</h2>
+      <h2>MØD OS OG BLIV INSPIRERET</h2>
       <p>
         Hvis du drømmer om et fantastisk rejseeventyr med masser af adventure,
         vilde naturoplevelser, spændende kulturmøder og et stærkt

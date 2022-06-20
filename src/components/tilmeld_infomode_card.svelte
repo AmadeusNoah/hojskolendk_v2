@@ -4,7 +4,7 @@
 
 <section class="ophold max-w-fit block  sm:pb-0 gap-6">
   <div class="streg h-0.5 w-full " />
-  <h3 class="px-8 pt-6 ">Tilmeld dig infomødet</h3>
+  <h3 class="px-8 pt-6 ">Tilmeld dig infoaften</h3>
   <div class="px-8 py-3">
     <p class="tabeltxt font-bold">Adresse:</p>
     <p class="tabeltxt">Købmagergade 52,</p>
@@ -90,7 +90,7 @@
       </div>
     </form>
     <div class="px-8 pb-8 mb-4">
-      <h4 class="">Informationsmøde om højskoleophold i udlandet</h4>
+      <h4 class="">Informationsaften om højskoleophold i udlandet</h4>
       <p>Vi præsenterer vores eventyrlige højskole og fortæller en masse om:</p>
       <ul class="pt-4">
         <li>Hvem er HÖJSKOLENDK</li>

@@ -165,7 +165,7 @@
                 href="/infomode"
                 for="panel-5"
                 class="relative block p-4 shadow border-b border-grey font-semibold uppercase"
-                >Infomøde</a
+                >Infoaften</a
               >
             </div>
 
@@ -407,7 +407,7 @@
               href="/infomode"
               class=" flex items-center h-full bg-grey-darkest px-4"
             >
-              Infomøder
+              Infoaften
             </a>
           </div>
         </li>

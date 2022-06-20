@@ -78,7 +78,7 @@
           animation={"slide-in-fwd-tr 1.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both"}
         >
           <div class="row-start-4 md:row-auto">
-             <MyButton type="primary"> <a href="/infomode"> JOIN OS TIL INFOMØDE </a> </MyButton>
+             <MyButton type="primary"> <a href="/infomode"> JOIN OS TIL INFOAFTEN </a> </MyButton>
           </div>
         </Saos>
 

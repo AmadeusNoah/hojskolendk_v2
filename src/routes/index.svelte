@@ -20,7 +20,7 @@
   </div>
 
   <div class="absolute z-50 bottom-24 left-[calc(50%-25px)] h-12 w-auto">
-    <img class="h-auto w-12" src="scroll_down.png" alt="scroll down icon">
+    <img class="h-auto w-12" src="scroll_down.png" alt="scroll down icon" />
   </div>
   <div class="wave absolute bottom-[6px]">
     <svg
@@ -53,9 +53,7 @@
           <Saos
             animation={"from-left 1s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}
           >
-            <h2>
-              REJSEEVENTYR, SOMMER VIBES & FÆLLESSKAB I VERDENSKLASSE
-            </h2>
+            <h2>REJSEEVENTYR, SOMMER VIBES & FÆLLESSKAB I VERDENSKLASSE</h2>
           </Saos>
         </div>
 
@@ -78,7 +76,7 @@
           animation={"slide-in-fwd-tr 1.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both"}
         >
           <div class="row-start-4 md:row-auto">
-             <MyButton type="primary"> <a href="/infomode"> JOIN OS TIL INFOAFTEN </a> </MyButton>
+            <MyButton type="primary">JOIN OS TIL INFOAFTEN</MyButton>
           </div>
         </Saos>
 
@@ -121,7 +119,9 @@
       <Card image="ophold4.webp" title="Costa Rica, Mexico & Guatemala" />
     </div>
     <div class="justify-center grid pt-6">
-         <MyButton type="primary"> <a href="/alleophold"> UDFORSK VORES OPHOLD </a> </MyButton> 
+      <MyButton type="primary">
+        <a href="/alleophold"> UDFORSK VORES OPHOLD </a>
+      </MyButton>
     </div>
   </div>
 </section>
@@ -163,9 +163,6 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
   </div>
 </section>
 
-
-
-
 <!-- Statistik sektion start -->
 <section
   id=""
@@ -204,41 +201,39 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
   </Saos>
 </section>
 
-
-<section class="" id="section_5"> 
-  <article class="maxwidthwrapper cols-start-1 grid items-center place-items-center">
+<section class="" id="section_5">
+  <article
+    class="maxwidthwrapper cols-start-1 grid items-center place-items-center"
+  >
     <div class="grid md:grid-cols-2 md:gap-10 lg:gap-20">
-
       <div class="hidden md:grid md:m-auto">
-
-        <img
-          class=""
-          src="baeredygtighed.webp"
-          alt="Ung trekker i bjergene"
-        />
-    </div>
+        <img class="" src="baeredygtighed.webp" alt="Ung trekker i bjergene" />
+      </div>
 
       <div class="grid md:block md:m-auto">
         <div class="rows-start-1">
-            <p class="preh2">BÆREDYGTIGHED</p>
-            <h2>
-              VORES PLANET, VORES ANSVAR          </h2>
+          <p class="preh2">BÆREDYGTIGHED</p>
+          <h2>VORES PLANET, VORES ANSVAR</h2>
         </div>
 
-          <div class="row-start-3 md:row-auto">
-            <p class="pb-6">
-              I HÖJSKOLENDK brænder vi for at give vores elever et eventyrligt højskoleophold for livet. Så bæredygtigt som overhovedet muligt
-
-For os handler det om holdning og handling. Vi tager ansvar som højskole og forholder os aktivt til vores aftryk – positivt som negativt – så vi er med til at skabe bæredygtig turisme i dag, i morgen og i fremtiden. Det starter med at have orden i eget hus og dernæst ved vores leverandører og samarbejdspartnere, som vi i tæt samarbejde med stiller krav til etik, vilkår og klimapolitik.
-
+        <div class="row-start-3 md:row-auto">
+          <p class="pb-6">
+            I HÖJSKOLENDK brænder vi for at give vores elever et eventyrligt
+            højskoleophold for livet. Så bæredygtigt som overhovedet muligt For
+            os handler det om holdning og handling. Vi tager ansvar som højskole
+            og forholder os aktivt til vores aftryk – positivt som negativt – så
+            vi er med til at skabe bæredygtig turisme i dag, i morgen og i
+            fremtiden. Det starter med at have orden i eget hus og dernæst ved
+            vores leverandører og samarbejdspartnere, som vi i tæt samarbejde
+            med stiller krav til etik, vilkår og klimapolitik.
+          </p>
+          <div class="row-start-4 md:row-auto">
+            <img class="h-16 w-auto" src="underskrift_anj.png" alt="signatur" />
+            <p class="broedkrummer">
+              Amadeus Noah Jensen <br /> Medejer, HÖJSKOLENDK
             </p>
-            <div class="row-start-4 md:row-auto">
-              <img class="h-16 w-auto" src="underskrift_anj.png" alt="signatur">
-              <p class="broedkrummer">Amadeus Noah Jensen <br> Medejer, HÖJSKOLENDK</p>
-            </div>
           </div>
-
-         
+        </div>
 
         <div class="rows-start-2 pb-6 md:row-auto md:hidden">
           <img
@@ -248,13 +243,9 @@ For os handler det om holdning og handling. Vi tager ansvar som højskole og for
           />
         </div>
       </div>
-
-      
     </div>
   </article>
 </section>
-
-
 
 <section class="maxwidthwrapper">
   <p class="preh2">WE'RE SOCIAL</p>
@@ -323,13 +314,13 @@ For os handler det om holdning og handling. Vi tager ansvar som højskole og for
   </div>
 </section>
 
-<section> 
+<section>
   <div class="justify-center grid pt-6">
-     <MyButton type="primary">  <a href="/alleophold"> UDFORSK VORES OPHOLD </a> </MyButton> 
+    <MyButton type="primary">
+      <a href="/alleophold"> UDFORSK VORES OPHOLD </a>
+    </MyButton>
   </div>
 </section>
-
-
 
 <!-- Statistik section  slut -->
 

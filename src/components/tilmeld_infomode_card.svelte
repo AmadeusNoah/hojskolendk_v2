@@ -13,7 +13,7 @@
   <div class="sm:grid sm:grid-cols-2 pt-8">
     <form class=" px-8 pb-8 mb-4">
       <div class="mb-4">
-        <label class="block  text-sm font-bold mb-2" for="Navn"> Navn </label>
+        <label class="block  text-sm font-bold mb-2" for="name"> Navn </label>
         <input
           class=" appearance-none w-full py-2 px-3  leading-tight focus:shadow-outline"
           id="name"
@@ -22,7 +22,7 @@
         />
       </div>
       <div class="mb-4">
-        <label class="block  text-sm font-bold mb-2" for="Navn">
+        <label class="block  text-sm font-bold mb-2" for="lastname">
           Efternavn
         </label>
         <input
@@ -33,22 +33,24 @@
         />
       </div>
       <div class="mb-4">
-        <label class="block  text-sm font-bold mb-2" for="Navn"> Mobil </label>
+        <label class="block  text-sm font-bold mb-2" for="telephone-number">
+          Mobil nummer</label
+        >
         <input
           class=" appearance-none w-full py-2 px-3  leading-tight focus:shadow-outline"
-          id="mobil"
-          type="text"
-          placeholder="Mobil"
+          id="telephone-number"
+          type="telephone-number"
+          placeholder="Mobil nummer"
         />
       </div>
       <div class="mb-6">
-        <label class="block  text-sm font-bold mb-2" for="E-mail">
+        <label class="block  text-sm font-bold mb-2" for="email">
           E-mail
         </label>
         <input
           class=" appearance-none w-full py-2 px-3 mb-3 leading-tight focus:shadow-outline"
           id="email"
-          type="text"
+          type="email"
           placeholder="E-mail"
         />
         <p class="pt-6 pb-2 text-xs italic">
@@ -57,7 +59,7 @@
         <div>
           <div class="form-check">
             <input
-              class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-slate-600 checked:border-slate-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
+              class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-slate-600 checked:border-slate-600 transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
               type="radio"
               name="flexRadioDefault"
               id="flexRadioDefault1"
@@ -71,7 +73,7 @@
           </div>
           <div class="form-check flex">
             <input
-              class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-slate-600 checked:border-slate-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
+              class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-slate-600 checked:border-slate-600 transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
               type="radio"
               name="flexRadioDefault"
               id="flexRadioDefault2"
@@ -80,7 +82,7 @@
               class="form-check-label inline-block text-sm italic "
               for="flexRadioDefault2"
             >
-              Jeg har læst jeres privatlivspolitik og generelle bestemmelser.*
+              Jeg har læst jeres privatlivspolitik*
             </label>
           </div>
         </div>
